@@ -37,30 +37,4 @@ y += yVector
 #endregion
 
 
-/* currently broken
-#region attack timer
-
-if (isAttacking) //check if the player is in the process of attacking
-	{
-		if (attackTimer > 0) //check if the timer is done yet
-			{
-				attackTimer --
-			}
-		else //stop attacking
-			{
-				isAttacking = false
-				attackTimer = attackTimerDefault
-				oBow.sprite_index = sBow
-			}
-	}
-if (weapon == "bow" && attackTimer == 24) //check if the bow should shoot an arrow
-	{
-		instance_create_layer(x, y, oArrow)
-	}
-
-
-
-
-#endregion
-*/
 
