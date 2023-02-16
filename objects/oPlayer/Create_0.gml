@@ -4,9 +4,10 @@
 
 Speed = 5
 
-
-
-
-
-
+/* currently broken
+weapon = "bow"
+attackTimerDefault = 30
+attackTimer = attackTimerDefault
+isAttacking = false
+*/
 
