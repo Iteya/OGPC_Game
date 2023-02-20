@@ -5,7 +5,12 @@ y = oPlayer.y //set the y
 
 if mouse_check_button(mb_left) { //if left mouse button pressed, play firing animation
 	sprite_index = sBowFiring
+	shoot = 0
 }
 if image_index > image_number - 1 { //if animation ended, go back to normal bow animation
 	sprite_index = sBow
+	if shoot = 0 {
+		instance_create_depth(x, y, layer, oArrow) //If you still have shots left, shoot a shot
+		shoot = 1
+	}
 }
