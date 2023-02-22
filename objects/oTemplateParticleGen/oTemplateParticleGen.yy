@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oStartButton",
-  "spriteId": {
-    "name": "sStartButton",
-    "path": "sprites/sStartButton/sStartButton.yy",
-  },
+  "name": "oTemplateParticleGen",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,14 +22,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":37,"eventType":10,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu Items + HUD",
-    "path": "folders/Objects/Menu Items + HUD.yy",
+    "name": "Template Objects",
+    "path": "folders/Objects/Template Objects.yy",
   },
 }
