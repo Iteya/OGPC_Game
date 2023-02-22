@@ -3,6 +3,6 @@
 
 
 Speed = 5
-
+arrows = 15
 
 
