@@ -13,3 +13,6 @@ yB = y //second set of coordinates
 if xA == xB and yA == yB {
 	image_speed = 0 //if not moving anymore, stop animation
 }
+if  place_meeting(x, y, oEnemy) {
+	instance_destroy(self)
+}
