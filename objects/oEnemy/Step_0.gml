@@ -22,4 +22,7 @@ if hp < 10 { //detection for low health, set to run
 if keyboard_check_pressed(vk_space) { //testing for low health
 	hp = 5
 }
+if hp <= 0 {
+	instance_destroy(self)
+}
 #endregion

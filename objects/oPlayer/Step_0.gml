@@ -31,10 +31,6 @@ if (place_meeting(x, y + yVector, oTerrain))
 	}
 y += yVector
 
-
-
-
 #endregion
-
 
 
