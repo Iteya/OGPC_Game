@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"oArrow","path":"objects/oArrow/oArrow.yy",},"order":1,},
     {"id":{"name":"sMagicStaff","path":"sprites/sMagicStaff/sMagicStaff.yy",},"order":3,},
+    {"id":{"name":"sFireball","path":"sprites/sFireball/sFireball.yy",},"order":8,},
     {"id":{"name":"Debug","path":"objects/Debug/Debug.yy",},"order":1,},
     {"id":{"name":"oTerrain","path":"objects/oTerrain/oTerrain.yy",},"order":2,},
     {"id":{"name":"oTemplatePickup","path":"objects/oTemplatePickup/oTemplatePickup.yy",},"order":4,},
@@ -17,7 +18,6 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":3,},
     {"id":{"name":"sStartButton","path":"sprites/sStartButton/sStartButton.yy",},"order":6,},
-    {"id":{"name":"sFiresoul","path":"sprites/sFiresoul/sFiresoul.yy",},"order":5,},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},"order":4,},
     {"id":{"name":"oBow","path":"objects/oBow/oBow.yy",},"order":0,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
