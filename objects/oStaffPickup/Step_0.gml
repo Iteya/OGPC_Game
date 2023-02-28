@@ -3,9 +3,9 @@
 
 //pickup code(add in delete code once done testing)
 if place_meeting(x, y, oPlayer) {
-	if !instance_exists(oBow) {
-		instance_create_layer(x, y, layer, oBow)
+	if !instance_exists(oStaff) {
+		instance_create_layer(x, y, layer, oStaff)
 		//instance_destroy(self)
-		instance_destroy(oStaff)
+		instance_destroy(oBow)
 	}
 }
