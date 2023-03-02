@@ -1,9 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Cause Pain
 
 
-
-if (exploding)
+if (exploding > 0)
 	{
 		other.hp -= 10
 	}
