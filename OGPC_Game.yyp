@@ -11,6 +11,7 @@
     {"id":{"name":"Debug","path":"objects/Debug/Debug.yy",},"order":1,},
     {"id":{"name":"oTerrain","path":"objects/oTerrain/oTerrain.yy",},"order":2,},
     {"id":{"name":"oTemplatePickup","path":"objects/oTemplatePickup/oTemplatePickup.yy",},"order":4,},
+    {"id":{"name":"sBoom","path":"sprites/sBoom/sBoom.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"collidables","path":"objects/collidables/collidables.yy",},"order":6,},
     {"id":{"name":"oStaffPickup","path":"objects/oStaffPickup/oStaffPickup.yy",},"order":6,},
@@ -21,7 +22,6 @@
     {"id":{"name":"oStartButton","path":"objects/oStartButton/oStartButton.yy",},"order":0,},
     {"id":{"name":"sFireRingFront","path":"sprites/sFireRingFront/sFireRingFront.yy",},"order":11,},
     {"id":{"name":"sLongsword","path":"sprites/sLongsword/sLongsword.yy",},"order":2,},
-    {"id":{"name":"sWallDefault","path":"sprites/sWallDefault/sWallDefault.yy",},"order":2,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":3,},
     {"id":{"name":"sStartButton","path":"sprites/sStartButton/sStartButton.yy",},"order":6,},
@@ -79,10 +79,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.8.1.37",
   },
 }
