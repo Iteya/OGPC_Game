@@ -18,6 +18,7 @@
     {"id":{"name":"oStaffPickup","path":"objects/oStaffPickup/oStaffPickup.yy",},"order":6,},
     {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},"order":1,},
     {"id":{"name":"sFireball2","path":"sprites/sFireball2/sFireball2.yy",},"order":14,},
+    {"id":{"name":"sBoom2","path":"sprites/sBoom2/sBoom2.yy",},"order":15,},
     {"id":{"name":"oFireball","path":"objects/oFireball/oFireball.yy",},"order":1,},
     {"id":{"name":"sGroundPlchldr","path":"sprites/sGroundPlchldr/sGroundPlchldr.yy",},"order":13,},
     {"id":{"name":"oSword","path":"objects/oSword/oSword.yy",},"order":7,},
