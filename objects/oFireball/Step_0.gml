@@ -11,7 +11,7 @@ if (place_meeting(x, y, collidables))
 	}
 
 
-if (exploding > 0)
+if (exploding >= 0)
 	{
 		exploding --
 	}

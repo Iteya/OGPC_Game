@@ -8,6 +8,7 @@ if idle { //base state, just stands still and waits for player to get close
 	}
 } else if attack { //move towards player
 	mp_potential_step(oPlayer.x, oPlayer.y, mySpeed, false)
+	image_angle = point_direction(x, y, oPlayer.x, oPlayer.y)
 } else if run { //run away from player at random direction
 	mp_potential_step(oPlayer.x, oPlayer.y, mySpeed, false)
 	playerdirection = point_direction(x, y, oPlayer.x, oPlayer.y)
