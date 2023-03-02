@@ -1,6 +1,4 @@
-/// @description Insert description here
+/// @description Variable Defaults
 mySpeed = 2
-attack = false
-idle = true
-run = false
+mode = "idle"
 hp = 50

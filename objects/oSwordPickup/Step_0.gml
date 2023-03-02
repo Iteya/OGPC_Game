@@ -5,7 +5,7 @@ if place_meeting(x, y, oPlayer) {
 	if !instance_exists(oSword) {
 		instance_create_layer(x, y, layer, oSword)
 		//instance_destroy(self)
-		instance_destroy(oStaff)
+		instance_destroy(oPlayer.weapon)
 	}
 }
 

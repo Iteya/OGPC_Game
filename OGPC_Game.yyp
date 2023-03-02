@@ -33,6 +33,7 @@
     {"id":{"name":"oBow","path":"objects/oBow/oBow.yy",},"order":0,},
     {"id":{"name":"oStaff","path":"objects/oStaff/oStaff.yy",},"order":5,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
+    {"id":{"name":"sMagicStaffShooting","path":"sprites/sMagicStaffShooting/sMagicStaffShooting.yy",},"order":5,},
     {"id":{"name":"oFireAuraBack","path":"objects/oFireAuraBack/oFireAuraBack.yy",},"order":1,},
     {"id":{"name":"sFireRingBack","path":"sprites/sFireRingBack/sFireRingBack.yy",},"order":10,},
     {"id":{"name":"sBowFiring","path":"sprites/sBowFiring/sBowFiring.yy",},"order":0,},
@@ -83,10 +84,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.8.1.37",
   },
 }
