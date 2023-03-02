@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oTerrain",
   "spriteId": {
-    "name": "sWallDefault",
-    "path": "sprites/sWallDefault/sWallDefault.yy",
+    "name": "sWall32",
+    "path": "sprites/sWall32/sWall32.yy",
   },
   "solid": true,
   "visible": true,

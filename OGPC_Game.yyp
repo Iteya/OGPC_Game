@@ -6,6 +6,7 @@
     {"id":{"name":"song_piano_melody","path":"sounds/song_piano_melody/song_piano_melody.yy",},"order":0,},
     {"id":{"name":"oArrow","path":"objects/oArrow/oArrow.yy",},"order":0,},
     {"id":{"name":"sMagicStaff","path":"sprites/sMagicStaff/sMagicStaff.yy",},"order":3,},
+    {"id":{"name":"sWall32","path":"sprites/sWall32/sWall32.yy",},"order":12,},
     {"id":{"name":"sFireball","path":"sprites/sFireball/sFireball.yy",},"order":8,},
     {"id":{"name":"Debug","path":"objects/Debug/Debug.yy",},"order":1,},
     {"id":{"name":"oTerrain","path":"objects/oTerrain/oTerrain.yy",},"order":2,},
@@ -15,6 +16,7 @@
     {"id":{"name":"oStaffPickup","path":"objects/oStaffPickup/oStaffPickup.yy",},"order":6,},
     {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},"order":1,},
     {"id":{"name":"oFireball","path":"objects/oFireball/oFireball.yy",},"order":1,},
+    {"id":{"name":"sGroundPlchldr","path":"sprites/sGroundPlchldr/sGroundPlchldr.yy",},"order":13,},
     {"id":{"name":"sBow","path":"sprites/sBow/sBow.yy",},"order":1,},
     {"id":{"name":"oStartButton","path":"objects/oStartButton/oStartButton.yy",},"order":0,},
     {"id":{"name":"sFireRingFront","path":"sprites/sFireRingFront/sFireRingFront.yy",},"order":11,},
@@ -34,9 +36,9 @@
     {"id":{"name":"rTest","path":"rooms/rTest/rTest.yy",},"order":0,},
   ],
   "Options": [
-    {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
@@ -77,10 +79,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.8.1.37",
+    "IDEVersion": "2022.11.1.56",
   },
 }
