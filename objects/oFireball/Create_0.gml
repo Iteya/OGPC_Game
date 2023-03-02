@@ -7,4 +7,6 @@ image_xscale = 4
 image_yscale = 4 //resize code
 myX = x
 myY = y //starter coords
+exploding = 0
+speed = 5
 
