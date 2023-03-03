@@ -7,7 +7,6 @@
     {"id":{"name":"oArrow","path":"objects/oArrow/oArrow.yy",},"order":1,},
     {"id":{"name":"sMagicStaff","path":"sprites/sMagicStaff/sMagicStaff.yy",},"order":3,},
     {"id":{"name":"sWall32","path":"sprites/sWall32/sWall32.yy",},"order":12,},
-    {"id":{"name":"sFireball","path":"sprites/sFireball/sFireball.yy",},"order":8,},
     {"id":{"name":"Debug","path":"objects/Debug/Debug.yy",},"order":1,},
     {"id":{"name":"oTerrain","path":"objects/oTerrain/oTerrain.yy",},"order":2,},
     {"id":{"name":"oBowPickup","path":"objects/oBowPickup/oBowPickup.yy",},"order":4,},
@@ -84,10 +83,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.8.1.37",
   },
 }
