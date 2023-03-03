@@ -33,6 +33,9 @@ if (place_meeting(x, y + yVector, oTerrain))
 	}
 y += yVector
 
+if place_meeting(x, y, oPortal) {
+	room_goto(choose(rOne_Five, rOne_Four, r1_3))
+}
 #endregion
 
 
