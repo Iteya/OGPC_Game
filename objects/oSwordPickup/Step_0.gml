@@ -6,7 +6,7 @@ if place_meeting(x, y, oPlayer) {
 		instance_create_layer(x, y, layer, oSword)
 		//instance_destroy(self)
 		instance_destroy(oPlayer.weapon)
+		oPlayer.weapon = oSword
 	}
 }
 
-oPlayer.weapon = oSword

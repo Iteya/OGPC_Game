@@ -1,21 +1,12 @@
 /// @description zoom'n'boom
-
-
-
-
-if (place_meeting(x, y, collidables))
-	{
-		exploding = 4
-		speed = 0
-		sprite_index = sBoom2
-	}
-
-
-if (exploding >= 0)
-	{
-		exploding --
-	}
-else if (exploding < 0) 
-	{
+if !place_meeting(x, y, collidables) {
+	move_contact_solid(direction, 10)
+} else {
+	sprite_index = sBoom2
+	if timer > 0 {
+		timer -= 1
+	} else if timer <= 0 {
 		instance_destroy(self)
 	}
+}
+

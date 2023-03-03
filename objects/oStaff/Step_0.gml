@@ -3,15 +3,10 @@ image_angle = point_direction(oPlayer.x, oPlayer.y, mouse_x, mouse_y) //change w
 x = oPlayer.x //set the x
 y = oPlayer.y //set the y
 
-if image_index > image_number - 1 { //if animation ended, go back to normal staff animation
-	sprite_index = sMagicStaff
-	if shoot = 0 and oPlayer.arrows > 0 {
-		instance_create_depth(x, y, layer, oFireball) //If you still have shots left, shoot a shot
-		shoot = 1
-		oPlayer.arrows --
+if mouse_check_button_pressed(mb_left) {
+	shoot = true
+	if shoot = true {
+		instance_create_layer(x, y, layer, oFireball)
+		shoot = false
 	}
-if mouse_check_button(mb_left) { //if left mouse button pressed, play firing animation
-	sprite_index = sMagicStaff
-	shoot = 0
-}
 }
