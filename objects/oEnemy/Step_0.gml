@@ -14,11 +14,24 @@ if self.mode == "idle" { //base state, just stands still and waits for player to
 	image_angle = playerdirection //point away from the player
 }
 
-if self.hp < 25 { //detection for low health, set to run
+if hp < 25 { //detection for low health, set to run
 	self.mode = "run"
 }
 
-if self.hp <= 0 {
+if hp <= 0 {
 	instance_destroy(self)
 }
+#endregion
+
+
+#region Iframes
+if (iframe < maxframe)
+	{
+		iframe --
+		if (iframe < 0)
+			{
+				iframe = maxframe
+			}
+	}
+
 #endregion

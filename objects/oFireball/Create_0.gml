@@ -8,3 +8,4 @@ image_yscale = 4 //resize code
 myX = x
 myY = y //starter coords
 timer = 10
+speed = 10

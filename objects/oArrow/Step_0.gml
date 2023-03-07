@@ -17,7 +17,3 @@ if xA == xB and yA == yB {
 		oPlayer.arrows ++
 	}
 }
-else if  place_meeting(x, y, oEnemy) {
-	instance_destroy(self)
-	oEnemy.hp -= 7
-}

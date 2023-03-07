@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "collidables",
+  "name": "projectiles",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,7 +25,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Projectiles",
+    "path": "folders/Objects/Projectiles.yy",
   },
 }
