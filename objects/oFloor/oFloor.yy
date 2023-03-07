@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oStaffPickup",
+  "name": "oFloor",
   "spriteId": {
-    "name": "sMagicStaff",
-    "path": "sprites/sMagicStaff/sMagicStaff.yy",
+    "name": "sGroundPlchldr",
+    "path": "sprites/sGroundPlchldr/sGroundPlchldr.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "floors",
+    "path": "objects/floors/floors.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,13 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Template Objects",
-    "path": "folders/Objects/Template Objects.yy",
+    "name": "NeedSkins!",
+    "path": "folders/Objects/NeedSkins!.yy",
   },
 }
