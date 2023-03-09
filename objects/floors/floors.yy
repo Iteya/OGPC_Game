@@ -25,7 +25,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Terrain",
-    "path": "folders/Objects/Terrain.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
