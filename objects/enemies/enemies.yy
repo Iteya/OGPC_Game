@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "floors",
+  "name": "enemies",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,7 +25,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NeedsSKins",
-    "path": "folders/Objects/NeedsSKins.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
 }

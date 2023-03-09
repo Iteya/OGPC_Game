@@ -9,9 +9,9 @@ xRight = keyboard_check(ord("D"))
 xLeft = keyboard_check(ord("A"))
 xDirection = xRight - xLeft
 xVector = Speed * xDirection
-if place_meeting(x + (oPlayer.sprite_width * xDirection), y, floors) {
-	if !place_meeting(x + xVector, y, oTerrain) {
-		x = x + xVector
+if place_meeting(x + xVector, y, floors) {
+	if !place_meeting(x + xVector, y, collidables) {
+		x += xVector
 	}
 }
 
@@ -26,7 +26,7 @@ if place_meeting(x, y + (oPlayer.sprite_height * yDirection), floors) {
 }
 
 if place_meeting(x, y, oPortal) {
-	room_goto(choose(L1))
+	room_goto(choose(r1_3))
 }
 #endregion
 

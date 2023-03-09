@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "collidables",
-    "path": "objects/collidables/collidables.yy",
+    "name": "enemies",
+    "path": "objects/enemies/enemies.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

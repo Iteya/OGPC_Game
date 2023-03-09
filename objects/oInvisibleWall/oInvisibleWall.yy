@@ -1,14 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "floors",
-  "spriteId": null,
-  "solid": false,
+  "name": "oInvisibleWall",
+  "spriteId": {
+    "name": "sInvisibleWall",
+    "path": "sprites/sInvisibleWall/sInvisibleWall.yy",
+  },
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "collidables",
+    "path": "objects/collidables/collidables.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NeedsSKins",
-    "path": "folders/Objects/NeedsSKins.yy",
+    "name": "Terrain",
+    "path": "folders/Objects/Terrain.yy",
   },
 }

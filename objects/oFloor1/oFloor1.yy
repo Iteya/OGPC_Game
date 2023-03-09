@@ -1,14 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "floors",
-  "spriteId": null,
+  "name": "oFloor1",
+  "spriteId": {
+    "name": "sGroundPlchldr",
+    "path": "sprites/sGroundPlchldr/sGroundPlchldr.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "floors",
+    "path": "objects/floors/floors.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
