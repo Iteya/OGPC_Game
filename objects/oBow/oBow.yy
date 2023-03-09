@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Template Objects",
-    "path": "folders/Objects/Template Objects.yy",
+    "name": "bow",
+    "path": "folders/Objects/Player/bow.yy",
   },
 }

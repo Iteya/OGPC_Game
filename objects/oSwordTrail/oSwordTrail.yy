@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oInvisibleWall",
+  "name": "oSwordTrail",
   "spriteId": {
-    "name": "sInvisibleWall",
-    "path": "sprites/sInvisibleWall/sInvisibleWall.yy",
+    "name": "sSwordTrail",
+    "path": "sprites/sSwordTrail/sSwordTrail.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "collidables",
-    "path": "objects/collidables/collidables.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,13 +24,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "walls",
-    "path": "folders/Objects/Terrain/walls.yy",
+    "name": "Projectiles",
+    "path": "folders/Objects/Projectiles.yy",
   },
 }

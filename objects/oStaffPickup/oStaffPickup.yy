@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Template Objects",
-    "path": "folders/Objects/Template Objects.yy",
+    "name": "staff",
+    "path": "folders/Objects/Player/staff.yy",
   },
 }

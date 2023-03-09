@@ -25,7 +25,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NeedsSKins",
-    "path": "folders/Objects/NeedsSKins.yy",
+    "name": "floors",
+    "path": "folders/Objects/Terrain/floors.yy",
   },
 }
