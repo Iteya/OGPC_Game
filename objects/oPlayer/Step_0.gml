@@ -19,8 +19,8 @@ yDown = keyboard_check(ord("S"))
 yUp = keyboard_check(ord("W"))
 yDirection = yDown - yUp
 yVector = Speed * yDirection
-if place_meeting(x, y + (oPlayer.sprite_height * yDirection), floors) {
-	if !place_meeting(x, y + yVector, oTerrain) {
+if place_meeting(x, y + yVector, floors) {
+	if !place_meeting(x, y + yVector, collidables) {
 		y = y + yVector
 	}
 }
