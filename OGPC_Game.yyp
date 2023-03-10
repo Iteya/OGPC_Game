@@ -3,7 +3,6 @@
   "resourceVersion": "1.6",
   "name": "OGPC_Game",
   "resources": [
-    {"id":{"name":"r1_3","path":"rooms/r1_3/r1_3.yy",},"order":6,},
     {"id":{"name":"song_piano_melody","path":"sounds/song_piano_melody/song_piano_melody.yy",},"order":0,},
     {"id":{"name":"oFloor1","path":"objects/oFloor1/oFloor1.yy",},"order":1,},
     {"id":{"name":"oFist","path":"objects/oFist/oFist.yy",},"order":7,},
@@ -69,7 +68,6 @@
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
     {"roomId":{"name":"rOne_Five","path":"rooms/rOne_Five/rOne_Five.yy",},},
     {"roomId":{"name":"rOne_Four","path":"rooms/rOne_Four/rOne_Four.yy",},},
-    {"roomId":{"name":"r1_3","path":"rooms/r1_3/r1_3.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
