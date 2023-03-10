@@ -29,5 +29,23 @@ if place_meeting(x, y, oPortal) {
 	room_goto(choose(r1_3))
 }
 #endregion
+if place_meeting(x, y, enemies) && invincible <= 0
+	{
+		Health -= 5
+		invincible ++
+	}
+if invincible > 0
+	{
+		invincible ++
+		if invincible > 30 * pi
+			{
+				invincible = 0
+			}
+	}
+if Health <= 0
+	{
+		game_restart()
+	}
+add = (-cos(50*invincible) / 2) + 0.5
 
 
