@@ -5,6 +5,6 @@ x = oPlayer.x //set the x
 y = oPlayer.y //set the y
 createX = x + lengthdir_x(150, image_angle)
 createY = y + lengthdir_y(150, image_angle)
-while mouse_check_button_pressed(mb_left) {
-	instance_create_layer(createX, createY, layer, oSwordTrail)
+if mouse_check_button(mb_left) {
+		instance_create_layer(createX, createY, layer, oSwordTrail)
 }
