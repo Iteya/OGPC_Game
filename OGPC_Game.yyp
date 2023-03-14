@@ -78,7 +78,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Effects","folderPath":"folders/Objects/Effects.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Objects/Enemy.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu Items + HUD","folderPath":"folders/Objects/Menu Items + HUD.yy","order":2,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"NeedsSKins","folderPath":"folders/Objects/NeedsSKins.yy","order":6,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"NeedsSkins","folderPath":"folders/Objects/NeedsSkins.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Objects/Player.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"bow","folderPath":"folders/Objects/Player/bow.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"staff","folderPath":"folders/Objects/Player/staff.yy","order":3,},

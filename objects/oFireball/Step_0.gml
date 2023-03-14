@@ -1,5 +1,5 @@
 /// @description zoom
-if (place_meeting(x, y, collidables)) //if it hits a collidable, start exploding
+if (place_meeting(x, y, collidables) or place_meeting(x, y, enemies)) //if it hits a collidable, start exploding
 	{
 		sprite_index = sBoom2
 		speed = 0

@@ -14,7 +14,7 @@ if self.mode == "idle" { //base state, just stands still and waits for player to
 	image_angle = playerdirection //point away from the player
 }
 
-if hp < 25 { //detection for low health, set to run
+if hp < 10 { //detection for low health, set to run
 	self.mode = "run"
 }
 

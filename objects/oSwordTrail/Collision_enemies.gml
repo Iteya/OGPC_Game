@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if (other.sprite_index == sBoom2)
+if other.iframe == other.maxframe
 	{
-		sprite_index = sBoom2
+		other.hp -= 5
+		other.iframe --
+		
 	}
-
 
 
 
