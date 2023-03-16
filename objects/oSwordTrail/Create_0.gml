@@ -1,2 +1,2 @@
-image_angle = point_direction(oSword.x, oSword.y, mouse_x, mouse_y)
+image_angle = oSword.image_angle
 fadetimer = 10

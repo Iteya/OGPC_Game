@@ -1,13 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
-//angleDestination = point_direction(oPlayer.x, oPlayer.y, mouse_x, mouse_y) //change where it rotates **MAKE SURE TO PUT THE ORIGIN OF THE OBJECT TO WHERE IT WILL ROTATE!!**
-image_angle = arctan2(oPlayer.y - mouse_y, oPlayer.x - mouse_x)
-image_angle = image_angle * 180 / pi
-//angleMovement = image_angle - previousAngle
+mouseDirection = point_direction(oPlayer.x, oPlayer.y, mouse_x, mouse_y)
+targetDirection = [dcos(mouseDirection), dsin(mouseDirection)]
+currentDirection = [dcos(image_angle), dsin(image_angle)]
+deltaDirection[0] = (targetDirection[0] - currentDirection[0]) / 20
+deltaDirection[1] = (targetDirection[1] - currentDirection[1]) / 20
+finalDirection[0] = currentDirection[0] + deltaDirection[0]
+finalDirection[1] = currentDirection[1] + deltaDirection[1]
+image_angle = darctan2(finalDirection[1], finalDirection[0])
 
 
-//image_angle = image_angle mod 360
+//quadrant = [sign(dcos(image_angle)), sign(dsin(image_angle))]
+//mouseQuadrant = [sign(mouse_x - x), sign(mouse_y - y)]
+
+
+image_angle = image_angle mod 360
 //previousAngle = image_angle
+
 
 x = oPlayer.x //set the x
 y = oPlayer.y //set the y
