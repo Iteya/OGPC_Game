@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Script2",
+  "name": "setOnFire",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
