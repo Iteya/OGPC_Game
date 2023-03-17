@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oWinterFloor2",
-  "spriteId": {
-    "name": "sWInterFloor2",
-    "path": "sprites/sWInterFloor2/sWInterFloor2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
