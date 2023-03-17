@@ -35,6 +35,7 @@
     {"id":{"name":"sGroundPlchldr","path":"sprites/sGroundPlchldr/sGroundPlchldr.yy",},"order":6,},
     {"id":{"name":"setOnFire","path":"scripts/setOnFire/setOnFire.yy",},"order":1,},
     {"id":{"name":"projectiles","path":"objects/projectiles/projectiles.yy",},"order":2,},
+    {"id":{"name":"oPlayerRoomStart","path":"objects/oPlayerRoomStart/oPlayerRoomStart.yy",},"order":4,},
     {"id":{"name":"oSword","path":"objects/oSword/oSword.yy",},"order":0,},
     {"id":{"name":"flashing","path":"shaders/flashing/flashing.yy",},"order":0,},
     {"id":{"name":"sBow","path":"sprites/sBow/sBow.yy",},"order":1,},

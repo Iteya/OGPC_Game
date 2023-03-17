@@ -7,7 +7,7 @@ arrows = 15
 Health = 50
 invincible = 0
 
-
+rooms = "Prologue"
 
 
 

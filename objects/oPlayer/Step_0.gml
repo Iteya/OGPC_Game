@@ -26,9 +26,10 @@ if place_meeting(x, y + yVector, floors) {
 }
 
 if place_meeting(x, y, oPortal) {
-	room_goto(choose(r1_3))
+	room_goto(choose(roomset))
 }
 #endregion
+
 if place_meeting(x, y, enemies) && invincible <= 0
 	{
 		Health -= 5
@@ -48,4 +49,16 @@ if Health <= 0
 	}
 add = (-cos(50*invincible) / 2) + 0.5
 
+#region - portal handling
+if rooms = "Prologue" {
+	roomset = Intro_Room_Placeholder
+} else if rooms = "Chapter1" {
+	
+} else if rooms = "Chapter2" {
+	
+} else if rooms = "Chapter3" {
+	
+}
 
+
+#endregion
