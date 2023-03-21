@@ -1,7 +1,10 @@
 /// @description Variable Defaults
+event_inherited()
 mySpeed = 4
-mode = "idle"
-hp = 150
-maxframe = 50
-iframe = maxframe
+sightRange = 340
+Health = 150
+runThreshold = 12
 
+
+hauntTimer = 0
+descending = false

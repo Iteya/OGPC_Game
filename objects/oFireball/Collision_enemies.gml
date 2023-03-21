@@ -2,6 +2,7 @@
 
 if !(other.iframe < other.maxframe)
 	{
-		other.hp -= 10
+		other.Health -= 3
 		other.iframe --
+		setOnFire(0.5, 2, other)
 	}

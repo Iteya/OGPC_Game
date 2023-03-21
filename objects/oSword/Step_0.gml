@@ -10,19 +10,15 @@ finalDirection[1] = currentDirection[1] + deltaDirection[1]
 image_angle = darctan2(finalDirection[1], finalDirection[0])
 
 
-//quadrant = [sign(dcos(image_angle)), sign(dsin(image_angle))]
-//mouseQuadrant = [sign(mouse_x - x), sign(mouse_y - y)]
-
-
-image_angle = image_angle mod 360
-//previousAngle = image_angle
-
 
 x = oPlayer.x //set the x
 y = oPlayer.y //set the y
 createX = x + lengthdir_x(150, image_angle)
 createY = y + lengthdir_y(150, image_angle)
-if mouse_check_button(mb_left)
+if mouse_check_button(mb_left) and abs(image_angle - previousAngle) > minSwordSwing
 	{
 		instance_create_layer(createX, createY, layer, oSwordTrail)
 	}
+
+
+previousAngle = image_angle

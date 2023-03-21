@@ -2,7 +2,7 @@
 
 
 
-other.hp -= 7
+other.Health -= 7
 other.iframe --
 instance_destroy(self)
 

@@ -5,6 +5,7 @@
 if (other.sprite_index == sBoom2)
 	{
 		sprite_index = sBoom2
+		speed = 0
 	}
 
 

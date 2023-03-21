@@ -6,7 +6,7 @@ Speed = 5
 arrows = 15
 Health = 50
 invincible = 0
-
+onFire = false
 rooms = "Prologue"
 
 

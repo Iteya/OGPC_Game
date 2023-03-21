@@ -1,15 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if other.iframe == other.maxframe
-	{
-		other.Health -= 11
-		other.iframe --
-		
-	}
 
 
 
-
-
-
+setOnFire(0.5, 1.5, oPlayer)
