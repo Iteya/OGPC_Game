@@ -3,8 +3,8 @@
 mouseDirection = point_direction(oPlayer.x, oPlayer.y, mouse_x, mouse_y)
 targetDirection = [dcos(mouseDirection), dsin(mouseDirection)]
 currentDirection = [dcos(image_angle), dsin(image_angle)]
-deltaDirection[0] = (targetDirection[0] - currentDirection[0]) / 20
-deltaDirection[1] = (targetDirection[1] - currentDirection[1]) / 20
+deltaDirection[0] = (targetDirection[0] - currentDirection[0]) / 10
+deltaDirection[1] = (targetDirection[1] - currentDirection[1]) / 10
 finalDirection[0] = currentDirection[0] + deltaDirection[0]
 finalDirection[1] = currentDirection[1] + deltaDirection[1]
 image_angle = darctan2(finalDirection[1], finalDirection[0])

@@ -1,6 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-pair = global.fireID
 
+
+
+
+
+
+
+
+
+
+// Inherit the parent event
+event_inherited();
 

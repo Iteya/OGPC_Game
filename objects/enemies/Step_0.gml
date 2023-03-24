@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+event_inherited()
 #region //Basic movement AI
 if self.mode == "idle" { //base state, just stands still and waits for player to get close
 	if distance_to_object(oPlayer) < sightRange {

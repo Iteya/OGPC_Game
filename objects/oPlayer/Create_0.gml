@@ -1,12 +1,12 @@
 /// @description all of the variables
 // You can write your code in this editor
+event_inherited()
 weapon = oFist
 
-Speed = 5
+Speed = 6
 arrows = 15
 Health = 50
 invincible = 0
-onFire = false
 rooms = "Prologue"
 
 
