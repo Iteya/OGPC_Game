@@ -11,4 +11,17 @@ invincible = 0
 rooms = "Prologue"
 
 
+<<<<<<< Updated upstream
 
+=======
+x = oRoomCoords.x
+y = oRoomCoords.y
+	
+#region Shader Stuff
+add = 0.0
+uni_add = shader_get_uniform(flashing, "add")
+
+
+
+#endregion
+>>>>>>> Stashed changes

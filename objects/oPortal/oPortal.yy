@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oPortal",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPortal",
+    "path": "sprites/sPortal/sPortal.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
