@@ -25,6 +25,10 @@ if Health <= 0 {
 }
 #endregion
 
+add = (-cos(50*iframe) / 2) + 0.5 //Flashing anim
+
+
+
 
 #region Iframes
 if (iframe < maxframe)

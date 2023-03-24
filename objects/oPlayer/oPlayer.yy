@@ -36,7 +36,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NeedsSkins",
-    "path": "folders/Objects/NeedsSkins.yy",
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
   },
 }

@@ -5,16 +5,10 @@ weapon = oFist
 
 Speed = 6
 arrows = 15
-Health = 50
+maxHealth = 50
+Health = maxHealth
 invincible = 0
 rooms = "Prologue"
 
 
 
-#region Shader Stuff
-add = 0.0
-uni_add = shader_get_uniform(flashing, "add")
-
-
-
-#endregion
