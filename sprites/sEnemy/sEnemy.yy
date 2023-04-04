@@ -67,7 +67,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NeedsSkins!1!",
-    "path": "folders/Sprites/NeedsSkins!1!.yy",
+    "name": "Placeholders",
+    "path": "folders/Sprites/Placeholders.yy",
   },
 }

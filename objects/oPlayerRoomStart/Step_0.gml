@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-timer = 0
+
+oPlayer.x = x
+oPlayer.y = y
