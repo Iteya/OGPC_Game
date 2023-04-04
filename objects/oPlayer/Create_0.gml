@@ -3,12 +3,14 @@
 event_inherited()
 weapon = oFist
 
+Healthbar = sprite_width
 Speed = 6
 arrows = 15
 maxHealth = 50
 Health = maxHealth
 invincible = 0
 rooms = "Prologue"
+
 
 
 
