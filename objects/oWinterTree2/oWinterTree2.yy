@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oWinterTree2",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sWinterTree2",
+    "path": "sprites/sWinterTree2/sWinterTree2.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NeedsSkins",
-    "path": "folders/Objects/NeedsSkins.yy",
+    "name": "Terrain",
+    "path": "folders/Objects/Terrain.yy",
   },
 }

@@ -13,6 +13,9 @@ if place_meeting(x + xVector, y, floors) {
 	if !place_meeting(x + xVector, y, collidables) {
 		x += xVector
 	}
+	if !place_meeting(x + xDirection, y, collidables) {
+		x += xDirection
+	}
 }
 
 yDown = keyboard_check(ord("S"))
@@ -22,6 +25,9 @@ yVector = Speed * yDirection
 if place_meeting(x, y + yVector, floors) {
 	if !place_meeting(x, y + yVector, collidables) {
 		y = y + yVector
+	}
+	if !place_meeting(x, y + yDirection, collidables) {
+		y = y + yDirection
 	}
 }
 

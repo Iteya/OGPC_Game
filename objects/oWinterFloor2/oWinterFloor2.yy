@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oWinterFloor2",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sWinterFloor2",
+    "path": "sprites/sWinterFloor2/sWinterFloor2.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NeedsSkins",
-    "path": "folders/Objects/NeedsSkins.yy",
+    "name": "floors",
+    "path": "folders/Objects/Terrain/floors.yy",
   },
 }

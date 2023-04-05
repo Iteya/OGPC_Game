@@ -4,7 +4,7 @@ event_inherited()
 weapon = oFist
 
 Healthbar = sprite_width
-Speed = 6
+Speed = 4
 arrows = 15
 maxHealth = 50
 Health = maxHealth
