@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oWinterTree2",
-  "spriteId": {
-    "name": "sWinterTree2",
-    "path": "sprites/sWinterTree2/sWinterTree2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
