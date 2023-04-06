@@ -2,6 +2,17 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sWinterTree1",
+<<<<<<< HEAD
+  "bbox_bottom": 63,
+  "bbox_left": 1,
+  "bbox_right": 59,
+  "bbox_top": 7,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "collisionTolerance": 0,
+  "DynamicTexturePage": false,
+  "edgeFiltering": false,
+=======
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -16,19 +27,25 @@
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
+>>>>>>> 5f627409d4cb095e9b8e7dd700c8956f2def556e
   "For3D": false,
-  "width": 64,
-  "height": 64,
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
-  "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4f5538c7-5127-4f04-8885-444be3bea483",},
   ],
+<<<<<<< HEAD
+  "gridX": 0,
+  "gridY": 0,
+<<<<<<< Updated upstream
+  "frames": [
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4f5538c7-5127-4f04-8885-444be3bea483",},
+  ],
+=======
+  "height": 64,
+  "HTile": false,
+  "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"86f792c2-da06-43d2-8cbc-4924d5e040d7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+=======
+>>>>>>> Stashed changes
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
@@ -67,10 +84,58 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"86f792c2-da06-43d2-8cbc-4924d5e040d7","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e7d5f09f-5ed7-4a83-af03-761e25b51c03","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e32ba376-0ba2-44f6-b07a-9be6f2d8c890","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
+<<<<<<< Updated upstream
+=======
+>>>>>>> 5f627409d4cb095e9b8e7dd700c8956f2def556e
+>>>>>>> Stashed changes
   ],
   "nineSlice": null,
+  "origin": 0,
   "parent": {
     "name": "Terrain",
     "path": "folders/Sprites/Terrain.yy",
   },
+  "preMultiplyAlpha": false,
+  "sequence": {
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sWinterTree1",
+    "autoRecord": true,
+    "backdropHeight": 768,
+    "backdropImageOpacity": 0.5,
+    "backdropImagePath": "",
+    "backdropWidth": 1366,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
+    "eventStubScript": null,
+    "eventToFunction": {},
+    "length": 1.0,
+    "lockOrigin": false,
+    "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
+    "playback": 1,
+    "playbackSpeed": 15.0,
+    "playbackSpeedType": 0,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "timeUnits": 1,
+    "tracks": [
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cc9163ac-9aaa-4142-9db3-cffd8a43c01b","path":"sprites/sWinterTree1/sWinterTree1.yy",},},},"Disabled":false,"id":"0dec7fdc-d1e9-44e4-a3eb-503a458cf814","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+          ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange": null,
+    "volume": 1.0,
+    "xorigin": 0,
+    "yorigin": 0,
+  },
+  "swatchColours": null,
+  "swfPrecision": 2.525,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "type": 0,
+  "VTile": false,
+  "width": 64,
 }
