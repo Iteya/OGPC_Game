@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWinterTree1",
+  "name": "oPauseScreen",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Terrain",
-    "path": "folders/Objects/Terrain.yy",
+    "name": "NeedsSkins",
+    "path": "folders/Objects/NeedsSkins.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWinterTree1",
-    "path": "sprites/sWinterTree1/sWinterTree1.yy",
+    "name": "sPauseScreen",
+    "path": "sprites/sPauseScreen/sPauseScreen.yy",
   },
   "spriteMaskId": null,
   "visible": true,
