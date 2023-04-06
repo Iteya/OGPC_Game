@@ -19,6 +19,7 @@
   "gridY": 0,
   "height": 64,
   "HTile": false,
+<<<<<<< Updated upstream
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a314ab32-8b1b-4862-84ba-3becbf046993","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
@@ -63,10 +64,13 @@
     "yorigin": 0,
   },
 <<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a314ab32-8b1b-4862-84ba-3becbf046993","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a314ab32-8b1b-4862-84ba-3becbf046993","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
+  "origin": 0,
   "parent": {
     "name": "Terrain",
     "path": "folders/Sprites/Terrain.yy",
@@ -78,6 +82,49 @@
     "path": "texturegroups/Default",
 >>>>>>> Stashed changes
   },
+<<<<<<< Updated upstream
+=======
+  "preMultiplyAlpha": false,
+  "sequence": {
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sPortal",
+    "autoRecord": true,
+    "backdropHeight": 768,
+    "backdropImageOpacity": 0.5,
+    "backdropImagePath": "",
+    "backdropWidth": 1366,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
+    "eventStubScript": null,
+    "eventToFunction": {},
+    "length": 1.0,
+    "lockOrigin": false,
+    "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
+    "playback": 1,
+    "playbackSpeed": 30.0,
+    "playbackSpeedType": 0,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "timeUnits": 1,
+    "tracks": [
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6b0974e0-1275-453d-aaa6-b4210ec41ac0","path":"sprites/sPortal/sPortal.yy",},},},"Disabled":false,"id":"01464d93-02ae-4267-b694-1a8b638b47a5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+          ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange": null,
+    "volume": 1.0,
+    "xorigin": 0,
+    "yorigin": 0,
+  },
+  "swatchColours": null,
+  "swfPrecision": 2.525,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+>>>>>>> Stashed changes
   "type": 0,
   "VTile": false,
   "width": 64,

@@ -2,6 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oWinterTree2",
+<<<<<<< Updated upstream
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -45,14 +46,41 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
+=======
+>>>>>>> Stashed changes
   "eventList": [],
-  "properties": [],
+  "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Terrain",
     "path": "folders/Objects/Terrain.yy",
   },
+<<<<<<< Updated upstream
 =======
+  "visible": true,
+>>>>>>> Stashed changes
+=======
+  "parentObjectId": null,
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "sWinterTree2",
+    "path": "sprites/sWinterTree2/sWinterTree2.yy",
+  },
+  "spriteMaskId": null,
   "visible": true,
 >>>>>>> Stashed changes
 }

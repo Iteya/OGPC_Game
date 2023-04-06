@@ -1,7 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
+<<<<<<< Updated upstream:objects/oUnpauseButton/oUnpauseButton.yy
   "name": "oUnpauseButton",
+=======
+  "name": "oPauseScreen",
+>>>>>>> Stashed changes:objects/oPauseScreen/oPauseScreen.yy
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +30,13 @@
   "properties": [],
   "solid": false,
   "spriteId": {
+<<<<<<< Updated upstream:objects/oUnpauseButton/oUnpauseButton.yy
     "name": "sUnpauseButton",
     "path": "sprites/sUnpauseButton/sUnpauseButton.yy",
+=======
+    "name": "sPauseScreen",
+    "path": "sprites/sPauseScreen/sPauseScreen.yy",
+>>>>>>> Stashed changes:objects/oPauseScreen/oPauseScreen.yy
   },
   "spriteMaskId": null,
   "visible": true,
