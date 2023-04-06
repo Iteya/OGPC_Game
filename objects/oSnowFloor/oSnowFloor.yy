@@ -2,6 +2,8 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oSnowFloor",
+<<<<<<< HEAD
+=======
   "spriteId": {
     "name": "sSnowFloor",
     "path": "sprites/sSnowFloor/sSnowFloor.yy",
@@ -27,11 +29,34 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
+>>>>>>> 5f627409d4cb095e9b8e7dd700c8956f2def556e
   "eventList": [],
-  "properties": [],
+  "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "floors",
     "path": "folders/Objects/Terrain/floors.yy",
   },
+  "parentObjectId": null,
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "sSnowFloor",
+    "path": "sprites/sSnowFloor/sSnowFloor.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
 }

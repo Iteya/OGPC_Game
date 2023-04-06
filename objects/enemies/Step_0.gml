@@ -32,22 +32,12 @@ if global.gamePause == false {
 
 
 	#region Iframes
-	if (iframe < maxframe)
-		{
-			iframe --
-			if (iframe < 0)
-				{
-					iframe = maxframe
-				}
+	if (iframe < maxframe) {
+		iframe --
+		if (iframe < 0) {
+			iframe = maxframe
 		}
+	}
 
 	#endregion
 }
-else if global.gamePause == true {
-}
-
-
-
-
-
-
