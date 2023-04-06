@@ -2,7 +2,6 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rTest",
-<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
   "isDnd": false,
@@ -375,8 +374,6 @@
   ],
   "inheritLayers": false,
 >>>>>>> 5f627409d4cb095e9b8e7dd700c8956f2def556e
-=======
->>>>>>> Stashed changes
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
@@ -748,11 +745,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47E585ED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBowPickup","path":"objects/oBowPickup/oBowPickup.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":488.0,"y":542.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E881C18","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oStaffPickup","path":"objects/oStaffPickup/oStaffPickup.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":608.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2045D9F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSwordPickup","path":"objects/oSwordPickup/oSwordPickup.yy",},"properties":[],"rotation":90.0,"scaleX":3.0,"scaleY":3.0,"x":768.0,"y":640.0,},
-<<<<<<< Updated upstream
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5BD27C41","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":96.0,},
-=======
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5BD27C41","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},"properties":[],"rotation":-90.0,"scaleX":1.0,"scaleY":3.0,"x":480.0,"y":-7.83774E-15,},
->>>>>>> Stashed changes
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4B890CE5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_77033CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oInvisibleWall","path":"objects/oInvisibleWall/oInvisibleWall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_433EDAC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oInvisibleWall","path":"objects/oInvisibleWall/oInvisibleWall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":64.0,},

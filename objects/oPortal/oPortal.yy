@@ -3,7 +3,6 @@
   "resourceVersion": "1.0",
   "name": "oPortal",
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
 =======
@@ -31,8 +30,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
 >>>>>>> 5f627409d4cb095e9b8e7dd700c8956f2def556e
-=======
->>>>>>> Stashed changes
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -56,14 +53,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-<<<<<<< Updated upstream
   "spriteId": null,
-=======
-  "spriteId": {
-    "name": "sPortal",
-    "path": "sprites/sPortal/sPortal.yy",
-  },
->>>>>>> Stashed changes
   "spriteMaskId": null,
   "visible": true,
 }

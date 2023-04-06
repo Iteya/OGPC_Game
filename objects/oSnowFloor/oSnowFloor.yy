@@ -2,7 +2,6 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oSnowFloor",
-<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
   "spriteId": {
@@ -31,8 +30,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
 >>>>>>> 5f627409d4cb095e9b8e7dd700c8956f2def556e
-=======
->>>>>>> Stashed changes
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -40,14 +37,7 @@
     "name": "floors",
     "path": "folders/Objects/Terrain/floors.yy",
   },
-<<<<<<< Updated upstream
   "parentObjectId": null,
-=======
-  "parentObjectId": {
-    "name": "floors",
-    "path": "objects/floors/floors.yy",
-  },
->>>>>>> Stashed changes
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

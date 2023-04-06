@@ -2,7 +2,6 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sWinterTree1",
-<<<<<<< Updated upstream
 <<<<<<< HEAD
   "bbox_bottom": 63,
   "bbox_left": 1,
@@ -29,22 +28,10 @@
   "HTile": false,
   "VTile": false,
 >>>>>>> 5f627409d4cb095e9b8e7dd700c8956f2def556e
-=======
-  "bbox_bottom": 63,
-  "bbox_left": 4,
-  "bbox_right": 54,
-  "bbox_top": 2,
-  "bboxMode": 0,
-  "collisionKind": 1,
-  "collisionTolerance": 0,
-  "DynamicTexturePage": false,
-  "edgeFiltering": false,
->>>>>>> Stashed changes
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4f5538c7-5127-4f04-8885-444be3bea483",},
   ],
-<<<<<<< Updated upstream
 <<<<<<< HEAD
   "gridX": 0,
   "gridY": 0,
@@ -101,17 +88,6 @@
 =======
 >>>>>>> 5f627409d4cb095e9b8e7dd700c8956f2def556e
 >>>>>>> Stashed changes
-=======
-  "gridX": 0,
-  "gridY": 0,
-  "height": 64,
-  "HTile": false,
-  "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bd6c9bdf-4320-46db-bec8-bcf26c4fbb71","blendMode":0,"displayName":"Layer 3","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"86f792c2-da06-43d2-8cbc-4924d5e040d7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e7d5f09f-5ed7-4a83-af03-761e25b51c03","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e32ba376-0ba2-44f6-b07a-9be6f2d8c890","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
->>>>>>> Stashed changes
   ],
   "nineSlice": null,
   "origin": 0,
@@ -145,11 +121,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-<<<<<<< Updated upstream
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cc9163ac-9aaa-4142-9db3-cffd8a43c01b","path":"sprites/sWinterTree1/sWinterTree1.yy",},},},"Disabled":false,"id":"0dec7fdc-d1e9-44e4-a3eb-503a458cf814","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-=======
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4f5538c7-5127-4f04-8885-444be3bea483","path":"sprites/sWinterTree1/sWinterTree1.yy",},},},"Disabled":false,"id":"5703fdd0-a6c8-443c-893d-ea822458027f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
->>>>>>> Stashed changes
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
