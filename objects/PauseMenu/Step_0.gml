@@ -2,10 +2,8 @@
 // You can write your code in this editor
 
 if keyboard_check_pressed(vk_escape) {
-	if global.gamePause = false {
-		global.gamePause = true
-		buffer = 2
-	}
+	global.gamePause = true
+	buffer = 2
 }
 if buffer > 0 {
 	buffer -= 0.25

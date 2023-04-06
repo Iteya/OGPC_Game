@@ -9,9 +9,9 @@ if global.gamePause {
 	#region menu navigation
 	if !options {
 		if button == "return" {
-			draw_sprite(sUnpauseButton, 2, 570, 200) // back to game - selected
-			draw_sprite(sOptionsButton, 1, 570, 350) // options
-			draw_sprite(sQuitButton, 1, 570, 500) // quit game
+			draw_sprite(sUnpauseButton, 1, 555, 200) // back to game - selected
+			draw_sprite(sOptionsButton, 2, 555, 350) // options
+			draw_sprite(sQuitButton, 2, 555, 500) // quit game
 			if keyboard_check_pressed(vk_down) && menubuffer == 0 {
 				button = "options"
 				menubuffer = 2
@@ -25,9 +25,9 @@ if global.gamePause {
 			}
 		}
 		if button == "options" {
-			draw_sprite(sUnpauseButton, 1, 570, 200) // back to game
-			draw_sprite(sOptionsButton, 2, 570, 350) // options - selected
-			draw_sprite(sQuitButton, 1, 570, 500) // quit game
+			draw_sprite(sUnpauseButton, 2, 555, 200) // back to game
+			draw_sprite(sOptionsButton, 1, 555, 350) // options - selected
+			draw_sprite(sQuitButton, 2, 555, 500) // quit game
 			if keyboard_check_pressed(vk_down) && menubuffer == 0 {
 				button = "quit"
 				menubuffer = 2
@@ -42,9 +42,9 @@ if global.gamePause {
 			}
 		}
 		if button = "quit" {
-			draw_sprite(sUnpauseButton, 1, 570, 200) // back to game
-			draw_sprite(sOptionsButton, 1, 570, 350) // options
-			draw_sprite(sQuitButton, 2, 570, 500) // quit game - selected
+			draw_sprite(sUnpauseButton, 2, 555, 200) // back to game
+			draw_sprite(sOptionsButton, 2, 555, 350) // options
+			draw_sprite(sQuitButton, 1, 555, 500) // quit game - selected
 			if keyboard_check_pressed(vk_down) && menubuffer == 0 {
 				button = "return"
 				menubuffer = 2

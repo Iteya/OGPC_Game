@@ -2,6 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sWinterTree2",
+<<<<<<< Updated upstream
   "bbox_bottom": 63,
   "bbox_left": 9,
   "bbox_right": 54,
@@ -11,6 +12,22 @@
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
+=======
+  "bboxMode": 2,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 0,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 22,
+  "bbox_right": 42,
+  "bbox_top": 40,
+  "bbox_bottom": 63,
+  "HTile": false,
+  "VTile": false,
+>>>>>>> Stashed changes
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4f5538c7-5127-4f04-8885-444be3bea483",},
