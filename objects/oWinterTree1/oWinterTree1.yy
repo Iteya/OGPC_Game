@@ -2,8 +2,6 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oWinterTree1",
-<<<<<<< Updated upstream
-=======
   "spriteId": {
     "name": "sWinterTree1",
     "path": "sprites/sWinterTree1/sWinterTree1.yy",
@@ -13,10 +11,7 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "collidables",
-    "path": "objects/collidables/collidables.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -29,34 +24,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
->>>>>>> Stashed changes
   "eventList": [],
-  "managed": true,
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Terrain",
     "path": "folders/Objects/Terrain.yy",
   },
-  "parentObjectId": null,
-  "persistent": false,
-  "physicsAngularDamping": 0.1,
-  "physicsDensity": 0.5,
-  "physicsFriction": 0.2,
-  "physicsGroup": 1,
-  "physicsKinematic": false,
-  "physicsLinearDamping": 0.1,
-  "physicsObject": false,
-  "physicsRestitution": 0.1,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsShapePoints": [],
-  "physicsStartAwake": true,
-  "properties": [],
-  "solid": false,
-  "spriteId": {
-    "name": "sWinterTree1",
-    "path": "sprites/sWinterTree1/sWinterTree1.yy",
-  },
-  "spriteMaskId": null,
-  "visible": true,
 }

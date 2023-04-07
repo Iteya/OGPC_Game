@@ -2,8 +2,6 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oWinterFloor1",
-<<<<<<< Updated upstream
-=======
   "spriteId": {
     "name": "sWinterFloor1",
     "path": "sprites/sWinterFloor1/sWinterFloor1.yy",
@@ -13,10 +11,7 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "floors",
-    "path": "objects/floors/floors.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -29,7 +24,6 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
->>>>>>> Stashed changes
   "eventList": [],
   "properties": [],
   "overriddenProperties": [],
@@ -37,32 +31,4 @@
     "name": "floors",
     "path": "folders/Objects/Terrain/floors.yy",
   },
-<<<<<<< Updated upstream
-  "parentObjectId": {
-    "name": "floors",
-    "path": "objects/floors/floors.yy",
-  },
-  "persistent": false,
-  "physicsAngularDamping": 0.1,
-  "physicsDensity": 0.5,
-  "physicsFriction": 0.2,
-  "physicsGroup": 1,
-  "physicsKinematic": false,
-  "physicsLinearDamping": 0.1,
-  "physicsObject": false,
-  "physicsRestitution": 0.1,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsShapePoints": [],
-  "physicsStartAwake": true,
-  "properties": [],
-  "solid": false,
-  "spriteId": {
-    "name": "sWinterFloor1",
-    "path": "sprites/sWinterFloor1/sWinterFloor1.yy",
-  },
-  "spriteMaskId": null,
-  "visible": true,
-=======
->>>>>>> Stashed changes
 }
