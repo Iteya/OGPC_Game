@@ -3,7 +3,7 @@
 
 global.gamePause = false
 buffer = 0
-button = "return"
+button = "unpause"
 menubuffer = 0
 options = false
 selection = "back"

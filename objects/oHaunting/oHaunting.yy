@@ -39,7 +39,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Template Objects",
-    "path": "folders/Objects/Template Objects.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
 }
