@@ -3,10 +3,6 @@
 
 if keyboard_check_pressed(vk_escape) {
 	global.gamePause = true
-	buffer = 2
-}
-if buffer > 0 {
-	buffer -= 0.25
 }
 if menubuffer > 0 {
 	menubuffer -= 0.25
