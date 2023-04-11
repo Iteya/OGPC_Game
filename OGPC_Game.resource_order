@@ -75,6 +75,7 @@
     {"name":"flammable","order":7,"path":"objects/flammable/flammable.yy",},
     {"name":"sInvisibleWall","order":5,"path":"sprites/sInvisibleWall/sInvisibleWall.yy",},
     {"name":"oStaff","order":5,"path":"objects/oStaff/oStaff.yy",},
+    {"name":"sGroundTilesetTest","order":13,"path":"sprites/sGroundTilesetTest/sGroundTilesetTest.yy",},
     {"name":"oWinterFloor2","order":4,"path":"objects/oWinterFloor2/oWinterFloor2.yy",},
     {"name":"sEnemy","order":3,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"oSnowFloor","order":2,"path":"objects/oSnowFloor/oSnowFloor.yy",},
