@@ -15,10 +15,22 @@ x = oPlayer.x //set the x
 y = oPlayer.y //set the y
 createX = x + lengthdir_x(150, image_angle)
 createY = y + lengthdir_y(150, image_angle)
-if mouse_check_button(mb_left) and abs(image_angle - previousAngle) > minSwordSwing
+if abs(image_angle - previousAngle) > minSwordSwing
 	{
-		instance_create_layer(createX, createY, layer, oSwordTrail)
+		part_emitter_region(pSystem, swordTrailEmitter, prevCreateX, createX, prevCreateY, createY, ps_shape_line, ps_distr_linear)
+		part_type_direction(swordTrail, image_angle, image_angle, 0, 0) // Make the particles face the same direction as the sword
+		if stopped
+			{
+				part_emitter_stream(pSystem, swordTrailEmitter, swordTrail, 10) // 'Draw' a line, making a trail effect
+				stopped = false
+			}
+	}
+else
+	{
+		part_emitter_clear(pSystem, swordTrailEmitter)
+		stopped = true
 	}
 
-
 previousAngle = image_angle
+prevCreateX = createX // Remember the previous location to 'draw' a line to the new one
+prevCreateY = createY

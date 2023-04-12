@@ -66,6 +66,8 @@ if !global.gamePause {
 	} else if rooms = "Chapter3" {
 	
 	}
+	
+	weaponAngle = weapon.image_angle
 
 	#endregion
 }
