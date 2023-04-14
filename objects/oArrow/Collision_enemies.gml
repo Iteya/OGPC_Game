@@ -1,6 +1,6 @@
 /// @description Hurt
 
-other.Health -= 7
+other.Health -= 15
 other.iframe --
 instance_destroy(self)
 
