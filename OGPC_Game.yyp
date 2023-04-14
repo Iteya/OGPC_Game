@@ -44,7 +44,11 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Weapons","folderPath":"folders/Sprites/Weapons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+<<<<<<< Updated upstream
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TileSkins","folderPath":"folders/Sprites/TileSkins.yy",},
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Staves","folderPath":"folders/Sprites/Weapons/Staves.yy",},
+>>>>>>> Stashed changes
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -53,6 +57,7 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"sStaff2","path":"sprites/sStaff2/sStaff2.yy",},},
     {"id":{"name":"song_piano_melody","path":"sounds/song_piano_melody/song_piano_melody.yy",},},
     {"id":{"name":"sSet1","path":"sprites/sSet1/sSet1.yy",},},
     {"id":{"name":"oFloor1","path":"objects/oFloor1/oFloor1.yy",},},
@@ -84,6 +89,7 @@
     {"id":{"name":"sFireball2","path":"sprites/sFireball2/sFireball2.yy",},},
     {"id":{"name":"sHaunting","path":"sprites/sHaunting/sHaunting.yy",},},
     {"id":{"name":"sBoom2","path":"sprites/sBoom2/sBoom2.yy",},},
+    {"id":{"name":"sStaff1","path":"sprites/sStaff1/sStaff1.yy",},},
     {"id":{"name":"sWinterFloor2","path":"sprites/sWinterFloor2/sWinterFloor2.yy",},},
     {"id":{"name":"oFireball","path":"objects/oFireball/oFireball.yy",},},
     {"id":{"name":"sGroundPlchldr","path":"sprites/sGroundPlchldr/sGroundPlchldr.yy",},},
@@ -118,6 +124,7 @@
     {"id":{"name":"oWinterFloor2","path":"objects/oWinterFloor2/oWinterFloor2.yy",},},
     {"id":{"name":"tBarrier1","path":"tilesets/tBarrier1/tBarrier1.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
+    {"id":{"name":"sStaff3","path":"sprites/sStaff3/sStaff3.yy",},},
     {"id":{"name":"oSnowFloor","path":"objects/oSnowFloor/oSnowFloor.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"sQuit","path":"sprites/sQuit/sQuit.yy",},},

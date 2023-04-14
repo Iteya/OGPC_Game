@@ -25,13 +25,21 @@
     {"name":"Weapons","order":2,"path":"folders/Sprites/Weapons.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+<<<<<<< Updated upstream
     {"name":"TileSkins","order":13,"path":"folders/Sprites/TileSkins.yy",},
   ],
   "ResourceOrderSettings": [
+=======
+    {"name":"Staves","order":5,"path":"folders/Sprites/Weapons/Staves.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"sStaff2","order":1,"path":"sprites/sStaff2/sStaff2.yy",},
+    {"name":"sSet1","order":12,"path":"sprites/sSet1/sSet1.yy",},
+>>>>>>> Stashed changes
     {"name":"oFloor1","order":1,"path":"objects/oFloor1/oFloor1.yy",},
     {"name":"oFist","order":5,"path":"objects/oFist/oFist.yy",},
     {"name":"oArrow","order":1,"path":"objects/oArrow/oArrow.yy",},
-    {"name":"sMagicStaff","order":3,"path":"sprites/sMagicStaff/sMagicStaff.yy",},
+    {"name":"sMagicStaff","order":6,"path":"sprites/sMagicStaff/sMagicStaff.yy",},
     {"name":"PauseMenu","order":2,"path":"objects/PauseMenu/PauseMenu.yy",},
     {"name":"sWall32","order":8,"path":"sprites/sWall32/sWall32.yy",},
     {"name":"Debug","order":1,"path":"objects/Debug/Debug.yy",},
@@ -42,7 +50,7 @@
     {"name":"oBowPickup","order":4,"path":"objects/oBowPickup/oBowPickup.yy",},
     {"name":"oPlayer","order":4,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"collidables","order":2,"path":"objects/collidables/collidables.yy",},
-    {"name":"sSwordTrail","order":5,"path":"sprites/sSwordTrail/sSwordTrail.yy",},
+    {"name":"sSwordTrail","order":4,"path":"sprites/sSwordTrail/sSwordTrail.yy",},
     {"name":"sWinterBush","order":5,"path":"sprites/sWinterBush/sWinterBush.yy",},
     {"name":"oInvisibleWall","order":1,"path":"objects/oInvisibleWall/oInvisibleWall.yy",},
     {"name":"sBarrier1","order":1,"path":"sprites/sBarrier1/sBarrier1.yy",},
@@ -73,7 +81,7 @@
     {"name":"oBrokenWall","order":5,"path":"objects/oBrokenWall/oBrokenWall.yy",},
     {"name":"sWinterTree1","order":1,"path":"sprites/sWinterTree1/sWinterTree1.yy",},
     {"name":"oPauseScreen","order":6,"path":"objects/oPauseScreen/oPauseScreen.yy",},
-    {"name":"sArrow","order":4,"path":"sprites/sArrow/sArrow.yy",},
+    {"name":"sArrow","order":3,"path":"sprites/sArrow/sArrow.yy",},
     {"name":"sWinterTree2","order":2,"path":"sprites/sWinterTree2/sWinterTree2.yy",},
     {"name":"flammable","order":7,"path":"objects/flammable/flammable.yy",},
     {"name":"sInvisibleWall","order":5,"path":"sprites/sInvisibleWall/sInvisibleWall.yy",},
@@ -81,6 +89,7 @@
     {"name":"oWinterFloor2","order":4,"path":"objects/oWinterFloor2/oWinterFloor2.yy",},
     {"name":"tBarrier1","order":1,"path":"tilesets/tBarrier1/tBarrier1.yy",},
     {"name":"sEnemy","order":3,"path":"sprites/sEnemy/sEnemy.yy",},
+    {"name":"sStaff3","order":2,"path":"sprites/sStaff3/sStaff3.yy",},
     {"name":"oSnowFloor","order":2,"path":"objects/oSnowFloor/oSnowFloor.yy",},
     {"name":"oEnemy","order":3,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"sQuit","order":4,"path":"sprites/sQuit/sQuit.yy",},
