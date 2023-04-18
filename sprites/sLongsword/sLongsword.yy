@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Sprites/Weapons.yy",
+    "name": "Swords",
+    "path": "folders/Sprites/Weapons/Swords.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

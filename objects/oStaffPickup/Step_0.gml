@@ -3,7 +3,7 @@
 
 //pickup code(add in delete code once done testing
 if place_meeting(x, y, oPlayer) {
-	chosen = choose(oNecromancyStaff)
+	chosen = choose(oStaff)
 	if !instance_exists(chosen) {
 		instance_create_layer(x, y, layer, chosen)
 		//instance_destroy(self)
