@@ -9,7 +9,10 @@
     "name": "floors",
     "path": "folders/Objects/Terrain/floors.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "floors",
+    "path": "objects/floors/floors.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

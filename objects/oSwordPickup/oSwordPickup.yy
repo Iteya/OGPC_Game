@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sLongsword",
-    "path": "sprites/sLongsword/sLongsword.yy",
+    "name": "sStarterWeapon",
+    "path": "sprites/sStarterWeapon/sStarterWeapon.yy",
   },
   "spriteMaskId": null,
   "visible": true,
