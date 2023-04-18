@@ -16,7 +16,16 @@ if !global.gamePause {
 			hauntTimer --
 		} else {hauntTimer ++}
 	}
-
+	
+	if image_alpha == 1
+		{
+			healthVisible = true
+		}
+	else
+		{
+			healthVisible = false
+		}
+	
 	#endregion
 	if iframe < maxframe and iframe > 0 {
 		becomeInvisible(iframe, maxframe) //Become slightly visible when damaged

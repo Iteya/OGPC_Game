@@ -9,7 +9,10 @@
     "name": "Terrain",
     "path": "folders/Objects/Terrain.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "collidables",
+    "path": "objects/collidables/collidables.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

@@ -27,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sMagicStaff",
-    "path": "sprites/sMagicStaff/sMagicStaff.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

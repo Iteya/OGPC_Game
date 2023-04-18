@@ -8,3 +8,4 @@ iframe = maxframe
 mode = "idle"
 onFire = false
 imageSideLength = 64
+healthVisible = true

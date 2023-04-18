@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3ce16c96-7025-4176-b7ff-c5990e91f303",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ccdd96bc-909e-4e78-b25c-5ea19ea6b42b",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7736eb9e-dd5c-47e4-83a2-8ef21ff163b7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0581dc58-71d0-43c1-a37e-233040aa8552","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Staves",
     "path": "folders/Sprites/Weapons/Staves.yy",
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3ce16c96-7025-4176-b7ff-c5990e91f303","path":"sprites/sStaff1/sStaff1.yy",},},},"Disabled":false,"id":"0f2a0c3a-acba-430f-91e4-b17d02b6cf4c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ccdd96bc-909e-4e78-b25c-5ea19ea6b42b","path":"sprites/sStaff1/sStaff1.yy",},},},"Disabled":false,"id":"903937f0-6d4e-4589-bad0-bc4006fac4ff","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": -2,
+    "yorigin": 16,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
