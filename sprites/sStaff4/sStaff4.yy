@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sStaff1",
-  "bbox_bottom": 30,
+  "name": "sStaff4",
+  "bbox_bottom": 31,
   "bbox_left": 3,
-  "bbox_right": 30,
+  "bbox_right": 31,
   "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,7 +13,7 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ccdd96bc-909e-4e78-b25c-5ea19ea6b42b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7fce014e-97fb-4eba-9ffc-b1dc1847cd6d",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0581dc58-71d0-43c1-a37e-233040aa8552","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Staves",
     "path": "folders/Sprites/Weapons/Staves.yy",
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sStaff1",
+    "name": "sStaff4",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ccdd96bc-909e-4e78-b25c-5ea19ea6b42b","path":"sprites/sStaff1/sStaff1.yy",},},},"Disabled":false,"id":"903937f0-6d4e-4589-bad0-bc4006fac4ff","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7fce014e-97fb-4eba-9ffc-b1dc1847cd6d","path":"sprites/sStaff4/sStaff4.yy",},},},"Disabled":false,"id":"2c0842ae-5c84-4407-a95f-e2490041495a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": -2,
+    "yorigin": 16,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

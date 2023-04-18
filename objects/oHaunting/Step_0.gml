@@ -17,7 +17,7 @@ if !global.gamePause {
 		} else {hauntTimer ++}
 	}
 	
-	if image_alpha == 1
+	if image_alpha > 0.7
 		{
 			healthVisible = true
 		}
