@@ -3,8 +3,6 @@
 event_inherited()
 weapon = oFist
 weaponAngle = 0
-image_xscale = 2
-image_yscale = 2
 
 Healthbar = sprite_width
 Speed = 4
