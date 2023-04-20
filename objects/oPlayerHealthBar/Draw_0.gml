@@ -1,3 +1,3 @@
-/// @description Draw Healthbar
+/// @description Draw oPlayer.Healthbar
 
-draw_healthbar(x - (Healthbar / 2), (y - (Healthbar / 2)) - 15, x + (Healthbar / 2), y - Healthbar, Health * 100 / maxHealth, c_black, c_red, c_blue, 0, true, true)
+draw_healthbar(x - (oPlayer.Health / 2), (y - (oPlayer.Health / 2)) - 15, x + (oPlayer.Health / 2), y - oPlayer.Health, oPlayer.Health * 100 / oPlayer.maxHealth, c_black, c_red, c_blue, 0, true, true)
