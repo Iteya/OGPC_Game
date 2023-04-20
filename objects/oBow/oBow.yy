@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "bow",
-    "path": "folders/Objects/Player/bow.yy",
+    "name": "Ranged",
+    "path": "folders/Objects/Weapons/Ranged.yy",
   },
   "parentObjectId": null,
   "persistent": true,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sBow",
-    "path": "sprites/sBow/sBow.yy",
+    "name": "sBow1",
+    "path": "sprites/sBow1/sBow1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

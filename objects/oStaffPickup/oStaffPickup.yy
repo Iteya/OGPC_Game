@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "staff",
-    "path": "folders/Objects/Player/staff.yy",
+    "name": "Pickups",
+    "path": "folders/Objects/Weapons/Pickups.yy",
   },
   "parentObjectId": null,
   "persistent": false,

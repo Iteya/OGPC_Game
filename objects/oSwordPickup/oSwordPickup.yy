@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "sword",
-    "path": "folders/Objects/Player/sword.yy",
+    "name": "Pickups",
+    "path": "folders/Objects/Weapons/Pickups.yy",
   },
   "parentObjectId": null,
   "persistent": false,

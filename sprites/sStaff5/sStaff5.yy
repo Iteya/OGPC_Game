@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Staves",
-    "path": "folders/Sprites/Weapons/Staves.yy",
+    "name": "Ranged",
+    "path": "folders/Sprites/Weapons/Ranged.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -4,11 +4,9 @@ if !global.gamePause {
 	x = oPlayer.x //set the x
 	y = oPlayer.y //set the y
 
-	if mouse_check_button_pressed(mb_left) {
-		shoot = true
-		if shoot = true {
-			instance_create_layer(x, y, layer, oFireball)
-			shoot = false
-		}
+
+	if shoot = true {
+		instance_create_layer(x, y, layer, projectile)
+		shoot = false
 	}
 }

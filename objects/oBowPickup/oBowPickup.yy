@@ -4,12 +4,13 @@
   "name": "oBowPickup",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "bow",
-    "path": "folders/Objects/Player/bow.yy",
+    "name": "Pickups",
+    "path": "folders/Objects/Weapons/Pickups.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sBow",
-    "path": "sprites/sBow/sBow.yy",
+    "name": "sBow1",
+    "path": "sprites/sBow1/sBow1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

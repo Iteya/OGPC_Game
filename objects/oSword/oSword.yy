@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "sword",
-    "path": "folders/Objects/Player/sword.yy",
+    "name": "Melee",
+    "path": "folders/Objects/Weapons/Melee.yy",
   },
   "parentObjectId": null,
   "persistent": true,
