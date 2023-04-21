@@ -13,8 +13,8 @@
     "path": "folders/Objects/Weapons/Ranged.yy",
   },
   "parentObjectId": {
-    "name": "ranged_template",
-    "path": "objects/ranged_template/ranged_template.yy",
+    "name": "staff_template",
+    "path": "objects/staff_template/staff_template.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

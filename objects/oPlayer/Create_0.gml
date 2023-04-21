@@ -11,7 +11,7 @@ maxHealth = 50
 Health = maxHealth
 invincible = 0
 rooms = "Prologue"
-
+mana = 50
 
 
 
