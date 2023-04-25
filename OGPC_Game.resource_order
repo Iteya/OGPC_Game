@@ -21,8 +21,10 @@
     {"name":"sPlayer","order":4,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sStartButton","order":2,"path":"sprites/sStartButton/sStartButton.yy",},
     {"name":"sArrow","order":1,"path":"sprites/sArrow/sArrow.yy",},
+    {"name":"sStaff7","order":1,"path":"sprites/sStaff7/sStaff7.yy",},
     {"name":"oBoneShard","order":1,"path":"objects/oBoneShard/oBoneShard.yy",},
     {"name":"sInvisibleWall","order":1,"path":"sprites/sInvisibleWall/sInvisibleWall.yy",},
+    {"name":"sStar","order":3,"path":"sprites/sStar/sStar.yy",},
     {"name":"sFrontGroundWinter","order":1,"path":"sprites/sFrontGroundWinter/sFrontGroundWinter.yy",},
   ],
 }
