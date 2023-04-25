@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"964dc80c-d406-4b83-8323-94faaeaf8e3d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"70d84caf-26a6-4f9a-9a8d-da80f38aea44",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"743027dc-8b78-4925-972a-29db05260969","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e4e8653b-132e-48e0-8b02-1a92498343da","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Melee",
-    "path": "folders/Sprites/Weapons/Melee.yy",
+    "name": "Meele",
+    "path": "folders/Sprites/Weapons/Meele.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"964dc80c-d406-4b83-8323-94faaeaf8e3d","path":"sprites/sSword13/sSword13.yy",},},},"Disabled":false,"id":"f1914139-b22b-4f8e-ab75-521bdb1d4f26","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"70d84caf-26a6-4f9a-9a8d-da80f38aea44","path":"sprites/sSword13/sSword13.yy",},},},"Disabled":false,"id":"d855d58d-b9de-4aca-85a8-44f8e1feed6a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sSword14",
-  "bbox_bottom": 30,
-  "bbox_left": 4,
-  "bbox_right": 30,
-  "bbox_top": 4,
+  "bbox_bottom": 31,
+  "bbox_left": 3,
+  "bbox_right": 31,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86a549c5-100f-4b7e-8650-5c9c221f2a0e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3b2f4061-2d0c-4228-98d9-278b8371478b",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"93d0507e-fe16-40f9-81dd-b6131cb44d2e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"27c96880-3db1-4b01-baba-be78b542fb77","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Melee",
-    "path": "folders/Sprites/Weapons/Melee.yy",
+    "name": "Meele",
+    "path": "folders/Sprites/Weapons/Meele.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"86a549c5-100f-4b7e-8650-5c9c221f2a0e","path":"sprites/sSword14/sSword14.yy",},},},"Disabled":false,"id":"426c5272-fd74-4801-937d-478e5474b43d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3b2f4061-2d0c-4228-98d9-278b8371478b","path":"sprites/sSword14/sSword14.yy",},},},"Disabled":false,"id":"f931ff9d-c27d-462c-9b51-2a5d817235f3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

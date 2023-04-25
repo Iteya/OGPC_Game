@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sSword12",
-  "bbox_bottom": 31,
-  "bbox_left": 4,
-  "bbox_right": 26,
-  "bbox_top": 4,
+  "name": "sSword9",
+  "bbox_bottom": 23,
+  "bbox_left": 2,
+  "bbox_right": 23,
+  "bbox_top": 2,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cdb6484a-a7ff-493f-8d3f-fcc9ec1e60b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"484fd007-64e8-4945-b6c8-e9e9fc33543f",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"60fdd1dd-d4bb-49be-b8d4-3f8a70cf1d35","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7f53b84a-f8b3-4e18-84d7-2c545db789d2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sSword12",
+    "name": "sSword9",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cdb6484a-a7ff-493f-8d3f-fcc9ec1e60b1","path":"sprites/sSword12/sSword12.yy",},},},"Disabled":false,"id":"3e15a646-8ea4-4e75-ba8b-1bcafee13714","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"484fd007-64e8-4945-b6c8-e9e9fc33543f","path":"sprites/sSword9/sSword9.yy",},},},"Disabled":false,"id":"fb2520d4-d5c1-47e7-a39d-45ec7defa79e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

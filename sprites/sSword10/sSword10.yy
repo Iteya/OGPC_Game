@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cfa22628-16d2-4c95-9b76-d95b0e623eb5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ad4d98c-0f86-47f9-9565-fb9c83ce74a2",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"29928277-baf5-44ab-972e-beb302af7d73","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7e21b884-3329-4506-816c-0c38be4b1efc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Melee",
-    "path": "folders/Sprites/Weapons/Melee.yy",
+    "name": "Meele",
+    "path": "folders/Sprites/Weapons/Meele.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cfa22628-16d2-4c95-9b76-d95b0e623eb5","path":"sprites/sSword10/sSword10.yy",},},},"Disabled":false,"id":"314abcc2-013c-43c7-802a-79d37dcbd5cd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9ad4d98c-0f86-47f9-9565-fb9c83ce74a2","path":"sprites/sSword10/sSword10.yy",},},},"Disabled":false,"id":"0fcd11a2-82da-47af-9c12-e5028dd07e92","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
