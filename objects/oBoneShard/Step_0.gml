@@ -1,18 +1,19 @@
 if !global.gamePause {
-	if timer > 0
+	timer --
+	if timer == 49 and global.shardsCreated < oNecromancyStaff.shardMax
 		{
-			timer --
+			Direction = point_direction(x, y, mouse_x, mouse_y) + irandom_range(-turn, turn)
+			destX = dcos(Direction) * spread + x
+			destY = dsin(Direction) * spread * -1 + y
+			instance_create_layer(destX, destY, "Midground", oBoneShard)
 		}
-	if timer == 0
+	else if timer == 49
 		{
-			timer2 = 15
-			if global.shardsCreated < oNecromancyStaff.shardMax
-				{
-					instance_create_layer((spreadFactor*global.shardsCreated*dcos(oPlayer.image_angle)) + random_range(-spreadFactor,spreadFactor), (spreadFactor*global.shardsCreated*dsin(oPlayer.image_angle)) + random_range(-spreadFactor,spreadFactor), layer, oBoneShard)
-				}
+			global.shardsCreated = 0
 		}
-	if timer2 == 0
+	if timer <= 0
 		{
 			instance_destroy(self)
 		}
+	
 }

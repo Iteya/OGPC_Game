@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "sBoneShard",
   "bbox_bottom": 15,
-  "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_left": 1,
+  "bbox_right": 14,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "Projectiles",
-    "path": "folders/Sprites/Weapons/Projectiles.yy",
+    "name": "Effects",
+    "path": "folders/Sprites/Effects.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
