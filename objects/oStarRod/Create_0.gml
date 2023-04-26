@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(self)
+projectile = oStar
+cooldown = 0.5
+// Inherit the parent event
+event_inherited();
+

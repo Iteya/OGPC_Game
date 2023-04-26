@@ -55,7 +55,6 @@ if !global.gamePause {
 			game_restart()
 		}
 	add = (-cos(50*invincible) / 2) + 0.5
-
 	#region - portal handling
 	if rooms = "Prologue" {
 		roomset = Intro_Room_Placeholder
@@ -66,11 +65,8 @@ if !global.gamePause {
 	} else if rooms = "Chapter3" {
 	
 	}
-	
-	weaponAngle = weapon.image_angle
-
 	#endregion
-	
+	weaponAngle = weapon.image_angle	
 	#region the sprite rotation stuff
 	image_angle = point_direction(x, y, mouse_x, mouse_y)
 	if (image_angle >= 1) and (image_angle <= 180) { //up

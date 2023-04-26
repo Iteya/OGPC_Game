@@ -1,4 +1,7 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"oStar","order":1,"path":"objects/oStar/oStar.yy",},
+    {"name":"oStarRod","order":1,"path":"objects/oStarRod/oStarRod.yy",},
+  ],
 }

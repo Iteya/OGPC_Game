@@ -119,6 +119,8 @@
     {"id":{"name":"weapons","path":"objects/weapons/weapons.yy",},},
     {"id":{"name":"sDagger1","path":"sprites/sDagger1/sDagger1.yy",},},
     {"id":{"name":"sLongsword","path":"sprites/sLongsword/sLongsword.yy",},},
+    {"id":{"name":"oStar","path":"objects/oStar/oStar.yy",},},
+    {"id":{"name":"oStarRod","path":"objects/oStarRod/oStarRod.yy",},},
     {"id":{"name":"sSword6","path":"sprites/sSword6/sSword6.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"oHaunting","path":"objects/oHaunting/oHaunting.yy",},},
