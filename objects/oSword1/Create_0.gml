@@ -1,19 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 image_xscale = 4 //how big the Object is in the x dimension
 image_yscale = 4 //how big the Object is in the y dimension
-
-minSwordSwing = 2 //the slowest you can swing the sword and still create a trail
-attackSlow = 5 //Level of angular damping
-prevCreateX = x + lengthdir_x(125, image_angle)
-prevCreateY = y + lengthdir_y(125, image_angle)
-
 damage = 12
-
 image_angle = oPlayer.weaponAngle
-previousAngle = image_angle
-
+rotation_max = 10
 #region PARTICLES
 
 pSystem = part_system_create_layer("Midground", false)
