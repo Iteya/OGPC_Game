@@ -6,9 +6,10 @@ if !global.gamePause {
 		{
 			cooling --
 		}
-	if shoot = true and cooling == 0 {
-		instance_create_layer(x, y, layer, projectile)
+	if shoot = true and cooling == 0 and oPlayer.mana >= manaCost {
+		oPlayer.mana -= manaCost
 		shoot = false
 		cooling = cooldown * 30
+		instance_create_layer(x, y, layer, projectile)
 	}
 }

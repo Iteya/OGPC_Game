@@ -1,7 +1,17 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"HUD","order":4,"path":"folders/Sprites/HUD.yy",},
+  ],
   "ResourceOrderSettings": [
+    {"name":"sStaff9","order":2,"path":"sprites/sStaff9/sStaff9.yy",},
+    {"name":"oPlayer","order":2,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"sStaff8","order":1,"path":"sprites/sStaff8/sStaff8.yy",},
+    {"name":"oManaBar","order":3,"path":"objects/oManaBar/oManaBar.yy",},
+    {"name":"sManaBack","order":2,"path":"sprites/sManaBack/sManaBack.yy",},
+    {"name":"oPlayerRoomStart","order":1,"path":"objects/oPlayerRoomStart/oPlayerRoomStart.yy",},
     {"name":"oStar","order":1,"path":"objects/oStar/oStar.yy",},
     {"name":"oStarRod","order":1,"path":"objects/oStarRod/oStarRod.yy",},
+    {"name":"sStaff11","order":4,"path":"sprites/sStaff11/sStaff11.yy",},
+    {"name":"sStaff10","order":3,"path":"sprites/sStaff10/sStaff10.yy",},
   ],
 }

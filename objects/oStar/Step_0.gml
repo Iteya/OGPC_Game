@@ -12,12 +12,4 @@ if !global.gamePause {
 		instance_destroy(self) //if not moving anymore, be destroyed
 	}
 	image_angle += (image_index + 1) * 6 //spin faster the more powerful it is
-	if mouse_check_button(mb_right) //homing effect
-		{
-			direction = point_direction(x, y, mouse_x, mouse_y)
-		}
-	if abs(x - mouse_x) < Speed and abs(y - mouse_y) < Speed //destroy itself if it touches the mouse
-		{
-			instance_destroy(self)
-		}
 }

@@ -1,7 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+manaCost = 3
 projectile = oStar
 cooldown = 0.5
-// Inherit the parent event
-event_inherited();
+event_inherited()
 
