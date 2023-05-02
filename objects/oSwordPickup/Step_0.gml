@@ -2,11 +2,11 @@
 // You can write your code in this editor
 //pickup code(add in delete code once done testing)
 if place_meeting(x, y, oPlayer) {
-	if !instance_exists(oSword) {
-		instance_create_layer(x, y, layer, oSword)
+	if !instance_exists(oSword1) {
+		instance_create_layer(x, y, layer, oSword1)
 		//instance_destroy(self)
 		instance_destroy(oPlayer.weapon)
-		oPlayer.weapon = oSword
+		oPlayer.weapon = oSword1
 	}
 }
 

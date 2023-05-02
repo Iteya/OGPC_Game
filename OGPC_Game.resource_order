@@ -1,11 +1,11 @@
 {
   "FolderOrderSettings": [
     {"name":"Effects","order":7,"path":"folders/Sprites/Effects.yy",},
+    {"name":"Enemies","order":13,"path":"folders/Sprites/Enemies.yy",},
     {"name":"HUD","order":11,"path":"folders/Sprites/HUD.yy",},
     {"name":"NeedsSkins!1!","order":8,"path":"folders/Sprites/NeedsSkins!1!.yy",},
     {"name":"Terrain","order":9,"path":"folders/Sprites/Terrain.yy",},
     {"name":"Weapons","order":10,"path":"folders/Sprites/Weapons.yy",},
-    {"name":"Enemies","order":13,"path":"folders/Sprites/Enemies.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sWall32","order":9,"path":"sprites/sWall32/sWall32.yy",},
@@ -29,6 +29,7 @@
     {"name":"sStartButton","order":2,"path":"sprites/sStartButton/sStartButton.yy",},
     {"name":"sStaff12","order":5,"path":"sprites/sStaff12/sStaff12.yy",},
     {"name":"sWinterTree1","order":1,"path":"sprites/sWinterTree1/sWinterTree1.yy",},
+    {"name":"oSword1","order":1,"path":"objects/oSword1/oSword1.yy",},
     {"name":"sStaff13","order":6,"path":"sprites/sStaff13/sStaff13.yy",},
     {"name":"sInvisibleWall","order":8,"path":"sprites/sInvisibleWall/sInvisibleWall.yy",},
     {"name":"sEnemy","order":1,"path":"sprites/sEnemy/sEnemy.yy",},
