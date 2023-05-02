@@ -14,7 +14,10 @@
     "name": "Melee",
     "path": "folders/Objects/Weapons/Melee.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "weapons",
+    "path": "objects/weapons/weapons.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 10.0,
   "physicsDensity": 0.5,

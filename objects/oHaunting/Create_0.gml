@@ -1,11 +1,10 @@
 /// @description Variable Defaults
 event_inherited()
 mySpeed = 4
-sightRange = 340
+sightRange = 1200
 maxHealth = 150
 Health = maxHealth
 runThreshold = 12
 
-
-hauntTimer = 0
+hauntTimer = 50
 descending = false

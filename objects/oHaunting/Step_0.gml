@@ -7,14 +7,18 @@ if !global.gamePause {
 
 	if self.mode == "attack" {
 		becomeInvisible(clamp(hauntTimer, 0, 50), 50) //The clamp function allows it to both have remain invisible for longer
-		if hauntTimer >= 100 { //Phase in and out of visibility
+		if hauntTimer >= 50 { //Phase in and out of visibility
 			descending = true
 		} else if hauntTimer <= 0 {
 			descending = false
 		}
-		if descending {
-			hauntTimer --
-		} else {hauntTimer ++}
+		if distance_to_object(oPlayer) < 150
+			{
+				descending = false
+				if descending {
+					hauntTimer --
+				} else {hauntTimer ++}
+			}
 	}
 	
 	if image_alpha > 0.7
