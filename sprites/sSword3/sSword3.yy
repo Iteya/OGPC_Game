@@ -4,7 +4,7 @@
   "name": "sSword3",
   "bbox_bottom": 22,
   "bbox_left": 3,
-  "bbox_right": 23,
+  "bbox_right": 22,
   "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
