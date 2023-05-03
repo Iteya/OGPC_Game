@@ -1,3 +1,3 @@
 event_inherited()
-rotation_max = 7
-swordLength = 125
+rotation_max = 8
+swordLength = 115
