@@ -10,6 +10,6 @@ if !global.gamePause {
 		oPlayer.mana -= manaCost
 		shoot = false
 		cooling = cooldown * 30
-		instance_create_layer(x, y, layer, projectile)
+		instance_create_layer(x + lengthdir_x(len, image_angle - 45), y + lengthdir_y(len, image_angle - 45), layer, projectile)
 	}
 }

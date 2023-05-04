@@ -4,7 +4,7 @@ mySpeed = 4
 sightRange = 1200
 maxHealth = 150
 Health = maxHealth
-runThreshold = 12
+runThreshold = 5
 
 hauntTimer = 50
 descending = false

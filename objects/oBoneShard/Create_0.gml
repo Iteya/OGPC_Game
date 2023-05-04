@@ -1,4 +1,4 @@
-global.shardsCreated ++
+oNecromancyStaff.shardsCreated ++
 timer = 50
 spread = 30
 turn = 45

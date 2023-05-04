@@ -6,9 +6,10 @@ if mouse_check_button_pressed(mb_left)
 	}
 if image_index == 14 and prepped
 	{
+		boltAngle = image_angle - 45
+		boltsMade = 0
 		shoot = true
 		prepped = false
-		boltAngle = image_angle
 	}
 // Inherit the parent event
 event_inherited();
