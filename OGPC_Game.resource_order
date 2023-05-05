@@ -1,4 +1,19 @@
 {
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Tilesets","order":10,"path":"folders/Sprites/Terrain/Tilesets.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"WallSet1","order":1,"path":"tilesets/WallSet1/WallSet1.yy",},
+    {"name":"sWall32","order":9,"path":"sprites/sWall32/sWall32.yy",},
+    {"name":"sWinterBush","order":8,"path":"sprites/sWinterBush/sWinterBush.yy",},
+    {"name":"sSnowFloor","order":7,"path":"sprites/sSnowFloor/sSnowFloor.yy",},
+    {"name":"sWinterFloor2","order":6,"path":"sprites/sWinterFloor2/sWinterFloor2.yy",},
+    {"name":"sGroundPlchldr","order":5,"path":"sprites/sGroundPlchldr/sGroundPlchldr.yy",},
+    {"name":"sPortal","order":4,"path":"sprites/sPortal/sPortal.yy",},
+    {"name":"sWinterFloor1","order":3,"path":"sprites/sWinterFloor1/sWinterFloor1.yy",},
+    {"name":"sWallSet1","order":2,"path":"sprites/sWallSet1/sWallSet1.yy",},
+    {"name":"sWinterTree1","order":2,"path":"sprites/sWinterTree1/sWinterTree1.yy",},
+    {"name":"sWinterTree2","order":1,"path":"sprites/sWinterTree2/sWinterTree2.yy",},
+    {"name":"sTileSet2","order":1,"path":"sprites/sTileSet2/sTileSet2.yy",},
+  ],
 }

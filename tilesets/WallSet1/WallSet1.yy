@@ -1,9 +1,9 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet1",
+  "name": "WallSet1",
   "autoTileSets": [
-    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"Grass","closed_edge":false,"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","closed_edge":false,"tiles":[
         1,
         2,
         3,
@@ -66,8 +66,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "sTileSet1",
-    "path": "sprites/sTileSet1/sTileSet1.yy",
+    "name": "sWallSet1",
+    "path": "sprites/sWallSet1/sWallSet1.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {
