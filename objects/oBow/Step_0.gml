@@ -1,9 +1,6 @@
 /// @description bow weapon template
 if !global.gamePause {
-	image_angle = point_direction(oPlayer.x, oPlayer.y, mouse_x, mouse_y) //change where it rotates **MAKE SURE TO PUT THE ORIGIN OF THE BOW TO WHERE IT WILL ROTATE!!**
-	x = oPlayer.x //set the x
-	y = oPlayer.y //set the y
-
+	event_inherited()
 	if image_index > image_number - 1 { //if animation ended, go back to normal bow animation
 		image_speed = 0
 		image_index = 0
