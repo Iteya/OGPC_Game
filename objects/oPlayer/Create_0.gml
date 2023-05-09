@@ -3,6 +3,8 @@
 event_inherited()
 weapon = oFist
 weaponAngle = 0
+bbox_side = bbox_right
+debug = "NO"
 
 Healthbar = sprite_width
 Speed = 4

@@ -10,24 +10,30 @@ if !global.gamePause {
 	xLeft = keyboard_check(ord("A"))
 	xDirection = xRight - xLeft
 	xVector = Speed * xDirection
-	if place_meeting(x + xVector, y, floors) {
-		if !place_meeting(x + xVector, y, collidables) {
-			x += xVector
-		}
-		if !place_meeting(x + xDirection, y, collidables) {
-			x += xDirection
-		}
+	//if xVector > 0 {
+	//	bbox_side = bbox_right
+	//} else {
+	//	bbox_side = bbox_left
+	//}
+	//if !tilemap_get_at_pixel(WallSet1, x + xVector, bbox_top) and !tilemap_get_at_pixel(WallSet1, x + xVector, bbox_bottom)  {
+	//	x = x + xVector
+	//}
+	x = x + xVector
+	if tilemap_get_at_pixel(WallSet1, x + xVector, bbox_top) {
+		debug = "YES"
+	} else {
+		debug = "NO"
 	}
 
 	yDown = keyboard_check(ord("S"))
 	yUp = keyboard_check(ord("W"))
 	yDirection = yDown - yUp
 	yVector = Speed * yDirection
-	if place_meeting(x, y + yVector, floors) {
-		if !place_meeting(x, y + yVector, collidables) {
+	if place_meeting(x, y + yVector, TileSet1) {
+		if !place_meeting(x, y + yVector, WallSet1 or collidables) {
 			y = y + yVector
 		}
-		if !place_meeting(x, y + yDirection, collidables) {
+		if !place_meeting(x, y + yDirection, WallSet1 or collidables) {
 			y = y + yDirection
 		}
 	}
