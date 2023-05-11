@@ -1,7 +1,7 @@
-if oLightningStaff.boltsMade < 20 and timer < 14
+if oLightningStaff.boltsMade < 18 and timer < 14
 	{
 		instance_create_layer(x + lengthdir_x(len, image_angle), y + lengthdir_y(len, image_angle), "Foreground", oLightningBolt)
-		if fork
+		if fork != 1
 			{
 				instance_create_layer(x + lengthdir_x(len, image_angle), y + lengthdir_y(len, image_angle), "Foreground", oLightningBolt)
 			}

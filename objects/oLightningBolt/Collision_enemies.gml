@@ -1,5 +1,5 @@
 if other.iframe == other.maxframe
 	{
 		other.iframe --
-		other.Health -= 12
+		other.Health -= 15
 	}

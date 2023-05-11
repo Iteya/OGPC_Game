@@ -1,12 +1,12 @@
 oLightningStaff.boltsMade ++
 timer = 15
-image_xscale = irandom_range(1,3) * 2
-fork = false
-if irandom(4) == 0
+image_xscale = random_range(1,7)
+fork = 1
+if round(image_xscale) == 7
 	{
-		fork = true
+		fork = 3
 	}
 len = 32 * image_xscale
 image_angle = oLightningStaff.boltAngle
-oLightningStaff.boltAngle += random_range(-35, 35)
+oLightningStaff.boltAngle += random_range(-20 * fork, 20 * fork)
 

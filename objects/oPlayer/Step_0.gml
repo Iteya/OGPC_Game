@@ -30,7 +30,7 @@ if !global.gamePause {
 		room_goto(choose(roomset))
 	}
 	#endregion
-
+	#region take damage
 	if place_meeting(x, y, enemies) && invincible <= 0
 		{
 			Health -= 5
@@ -49,6 +49,7 @@ if !global.gamePause {
 			game_restart()
 		}
 	add = (-cos(50*invincible) / 2) + 0.5
+	#endregion
 	#region - portal handling
 	if rooms = "Prologue" {
 		roomset = Intro_Room_Placeholder
