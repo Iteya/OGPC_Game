@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "Menu Items + HUD",
+    "path": "folders/Objects/Menu Items + HUD.yy",
   },
   "parentObjectId": null,
   "persistent": true,

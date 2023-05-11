@@ -6,8 +6,5 @@ draw_text(10, 30, "Shards Created: " + string(global.shardsCreated))
 draw_text(10, 50, "Buffer: " + string(PauseMenu.menubuffer))
 draw_text(10, 70, "Character rotation: " + string(oPlayer.image_angle) + "   " + string(oPlayer.image_index))
 draw_text(10, 90, "Pause: " + string(global.gamePause))
-draw_text(10, 110, "touching: " + string(oPlayer.debug))
-//draw_text(10, 100, "Angle: " + string(oPlayer.weapon.image_angle))
-
-
-
+draw_text(10, 110, "x: " + string(oPlayer.xdata))
+draw_text(10, 130, "y: " + string(oPlayer.ydata))

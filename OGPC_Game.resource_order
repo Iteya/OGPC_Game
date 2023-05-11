@@ -5,12 +5,15 @@
   ],
   "ResourceOrderSettings": [
     {"name":"WallSet1","order":1,"path":"tilesets/WallSet1/WallSet1.yy",},
+    {"name":"PauseMenu","order":2,"path":"objects/PauseMenu/PauseMenu.yy",},
     {"name":"sWall32","order":9,"path":"sprites/sWall32/sWall32.yy",},
+    {"name":"Debug","order":1,"path":"objects/Debug/Debug.yy",},
     {"name":"sPlayerWlkBck","order":2,"path":"sprites/sPlayerWlkBck/sPlayerWlkBck.yy",},
     {"name":"sBow1","order":1,"path":"sprites/sBow1/sBow1.yy",},
     {"name":"sWinterBush","order":8,"path":"sprites/sWinterBush/sWinterBush.yy",},
     {"name":"sStaff4","order":5,"path":"sprites/sStaff4/sStaff4.yy",},
     {"name":"sStaff8","order":1,"path":"sprites/sStaff8/sStaff8.yy",},
+    {"name":"oManaBar","order":3,"path":"objects/oManaBar/oManaBar.yy",},
     {"name":"sStaff6","order":3,"path":"sprites/sStaff6/sStaff6.yy",},
     {"name":"sSnowFloor","order":7,"path":"sprites/sSnowFloor/sSnowFloor.yy",},
     {"name":"sWinterFloor2","order":6,"path":"sprites/sWinterFloor2/sWinterFloor2.yy",},
@@ -33,7 +36,6 @@
     {"name":"sStaff3","order":6,"path":"sprites/sStaff3/sStaff3.yy",},
     {"name":"sMoth","order":1,"path":"sprites/sMoth/sMoth.yy",},
     {"name":"sStaff15","order":8,"path":"sprites/sStaff15/sStaff15.yy",},
-    {"name":"sTileSet2","order":1,"path":"sprites/sTileSet2/sTileSet2.yy",},
     {"name":"sStaff10","order":13,"path":"sprites/sStaff10/sStaff10.yy",},
   ],
 }
