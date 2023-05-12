@@ -63,11 +63,19 @@ if !global.gamePause {
 	#endregion
 	weaponAngle = weapon.image_angle	
 	#region the sprite rotation stuff
-	image_angle = point_direction(x, y, mouse_x, mouse_y)
-	if (image_angle >= 1) and (image_angle <= 180) { //up
-		image_index = 2
-	} else if (image_angle >= 181) and (image_angle <= 360) { // down
-		image_index = 4
+	if xVector > 0 and yVector == 0 {
+		sprite_index = sPlayer
+	} else if xVector < 0 and yVector == 0 {
+		sprite_index = sPlayer
+	} else if yVector > 0 and xVector == 0 {
+		sprite_index = sPlayerWlkFrnt
+	} else if yVector < 0 and xVector == 0 {
+		sprite_index = sPlayerWlkBck
+	}
+	if xDirection == 0 and yDirection == 0 {
+		image_speed = 0
+	} else {
+		image_speed = 1
 	}
 	#endregion
 }

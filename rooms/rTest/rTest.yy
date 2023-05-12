@@ -57,7 +57,7 @@
 -2147483648,-2147483648,18,-18,1,4,27,-2147483648,-2147483648,18,-18,1,4,27,-2147483648,-2147483648,18,-18,1,4,27,-2147483648,
 -2147483648,18,-18,1,4,27,-2147483648,-2147483648,18,-18,1,4,27,-2147483648,-2147483648,18,-18,1,4,27,-2147483648,-2147483648,
 18,-18,1,4,27,-2147483648,-2147483648,18,-18,1,4,27,-2147483648,-2147483648,45,-18,31,1,42,-9,-2147483648,1,
-0,-13,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"WallSet1","path":"tilesets/WallSet1/WallSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+0,-13,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"WallSet1","path":"tilesets/WallSet1/WallSet1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Farground","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":22,"TileCompressedData":[
 -3,0,1,18,-4,1,1,27,-14,0,3,38,22,2,-4,1,1,3,-11,22,4,40,
 0,0,18,-18,1,4,27,0,0,18,-18,1,4,27,0,0,18,-18,1,4,27,0,

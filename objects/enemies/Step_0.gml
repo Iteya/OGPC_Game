@@ -8,17 +8,10 @@ if global.gamePause == false {
 			self.mode = "attack"
 		}
 		impatiance += irandom_range(1, 5)
-		if impatiance >= 500 {
-			stepx = random_range(-30, 30)
-			stepy = random_range(-30, 30)
-			image_angle = point_direction(x + stepx, y + stepy, x, y)
-			impatiance += irandom_range(5, 10)
-				impatiance = 0
-		}
-		mp_potential_step(x + stepx, y + stepy, mySpeed, true)
 		if impatiance >= 100 {
-			stepx = 0
-			stepy = 0
+			stepx = random_range(-30, 30)
+			image_angle += stepx
+			impatiance = 0
 		}
 		
 	} else if self.mode == "attack" { //move towards player
