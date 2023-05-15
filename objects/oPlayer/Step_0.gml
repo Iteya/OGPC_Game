@@ -64,9 +64,9 @@ if !global.gamePause {
 	weaponAngle = weapon.image_angle	
 	#region the sprite rotation stuff
 	if xVector > 0 and yVector == 0 {
-		sprite_index = sPlayer
+		sprite_index = sPlayerWlkRght
 	} else if xVector < 0 and yVector == 0 {
-		sprite_index = sPlayer
+		sprite_index = sPlayerWlkLft
 	} else if yVector > 0 and xVector == 0 {
 		sprite_index = sPlayerWlkFrnt
 	} else if yVector < 0 and xVector == 0 {

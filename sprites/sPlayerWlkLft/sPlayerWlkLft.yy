@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sPlayerWlkBck",
-  "bbox_bottom": 61,
-  "bbox_left": 0,
-  "bbox_right": 63,
-  "bbox_top": 4,
+  "name": "sPlayerWlkLft",
+  "bbox_bottom": 63,
+  "bbox_left": 2,
+  "bbox_right": 59,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 2,
   "collisionTolerance": 0,
@@ -56,7 +56,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sPlayerWlkBck",
+    "name": "sPlayerWlkLft",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -78,8 +78,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee0f48ed-228b-4982-a10f-b06a53aef88d","path":"sprites/sPlayerWlkBck/sPlayerWlkBck.yy",},},},"Disabled":false,"id":"29138bad-5590-4c89-b4f5-2ed3a147736e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7b84fcf9-790e-4547-9a1a-75dacfd6bf56","path":"sprites/sPlayerWlkBck/sPlayerWlkBck.yy",},},},"Disabled":false,"id":"88999391-bc4b-459f-a1d1-40dde69a701d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee0f48ed-228b-4982-a10f-b06a53aef88d","path":"sprites/sPlayerWlkLft/sPlayerWlkLft.yy",},},},"Disabled":false,"id":"a719381c-c60b-4846-8b61-6bccd0e5ae31","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7b84fcf9-790e-4547-9a1a-75dacfd6bf56","path":"sprites/sPlayerWlkLft/sPlayerWlkLft.yy",},},},"Disabled":false,"id":"7c1568b8-5780-48b8-9286-2f96edceb658","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
