@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 event_inherited()
 maxHealth = 50
 Health = maxHealth
@@ -12,3 +10,6 @@ healthVisible = true
 stepx = 0
 stepy = 0
 impatiance = 0
+
+map_id = layer_tilemap_get_id(layer_get_id("Walls")) //The ID used for tilemap collision functions
+hitwall = 0 //Makes it turn another way when it hits a wall
