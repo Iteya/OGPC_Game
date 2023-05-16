@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlayerWlkFrnt",
-    "path": "sprites/sPlayerWlkFrnt/sPlayerWlkFrnt.yy",
+    "name": "sPlayerWlkDown",
+    "path": "sprites/sPlayerWlkDown/sPlayerWlkDown.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -52,7 +52,7 @@ if !global.gamePause {
 	#endregion
 	#region - portal handling
 	if rooms = "Prologue" {
-		roomset = Intro_Room_Placeholder
+		roomset = Beginning_Room
 	} else if rooms = "Chapter1" {
 	
 	} else if rooms = "Chapter2" {
@@ -61,16 +61,18 @@ if !global.gamePause {
 	
 	}
 	#endregion
-	weaponAngle = weapon.image_angle	
-	#region the sprite rotation stuff
+	
+	weaponAngle = weapon.image_angle
+	
+	#region the sprite *animation stuff
 	if xVector > 0 and yVector == 0 {
-		sprite_index = sPlayerWlkRght
+		sprite_index = sPlayerWlkRight
 	} else if xVector < 0 and yVector == 0 {
-		sprite_index = sPlayerWlkLft
+		sprite_index = sPlayerWlkLeft
 	} else if yVector > 0 and xVector == 0 {
-		sprite_index = sPlayerWlkFrnt
+		sprite_index = sPlayerWlkDown
 	} else if yVector < 0 and xVector == 0 {
-		sprite_index = sPlayerWlkBck
+		sprite_index = sPlayerWlkUp
 	}
 	if xDirection == 0 and yDirection == 0 {
 		image_speed = 0

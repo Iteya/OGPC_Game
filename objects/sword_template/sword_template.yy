@@ -18,7 +18,7 @@
     "name": "weapons",
     "path": "objects/weapons/weapons.yy",
   },
-  "persistent": false,
+  "persistent": true,
   "physicsAngularDamping": 10.0,
   "physicsDensity": 0.5,
   "physicsFriction": 0.4,
