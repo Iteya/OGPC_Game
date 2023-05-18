@@ -141,6 +141,7 @@
     {"id":{"name":"oLightningBolt","path":"objects/oLightningBolt/oLightningBolt.yy",},},
     {"id":{"name":"sFireRingFront","path":"sprites/sFireRingFront/sFireRingFront.yy",},},
     {"id":{"name":"weapons","path":"objects/weapons/weapons.yy",},},
+    {"id":{"name":"sBoss183","path":"sprites/sBoss183/sBoss183.yy",},},
     {"id":{"name":"sDagger1","path":"sprites/sDagger1/sDagger1.yy",},},
     {"id":{"name":"sLongsword","path":"sprites/sLongsword/sLongsword.yy",},},
     {"id":{"name":"oStar","path":"objects/oStar/oStar.yy",},},
