@@ -1,4 +1,4 @@
-data = layer_tilemap_get_id(layer_get_id("Wall"))
+data = layer_tilemap_get_id(layer_get_id("Walls"))
 global.grid = mp_grid_create(0, 0, room_width / 64, room_height / 64, 64, 64)
 for (var i = 0; i < room_width; i++) {
 	for (var j = 0; j < room_height; j++) {
@@ -7,3 +7,4 @@ for (var i = 0; i < room_width; i++) {
 		}
 	}
 }
+instance_destroy(self)

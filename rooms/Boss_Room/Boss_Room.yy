@@ -10,12 +10,14 @@
     {"name":"inst_3263C5D_2","path":"rooms/Boss_Room/Boss_Room.yy",},
     {"name":"inst_8689DFD_2","path":"rooms/Boss_Room/Boss_Room.yy",},
     {"name":"inst_42688F63","path":"rooms/Boss_Room/Boss_Room.yy",},
+    {"name":"inst_51757F77","path":"rooms/Boss_Room/Boss_Room.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Foreground","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3263C5D_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},"properties":[],"rotation":180.0,"scaleX":2.5,"scaleY":10.0,"x":5120.0,"y":1600.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8689DFD_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayerRoomStart","path":"objects/oPlayerRoomStart/oPlayerRoomStart.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":1248.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51757F77","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"mp","path":"objects/mp/mp.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4864.0,"y":224.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Midground","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42688F63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBoss1","path":"objects/oBoss1/oBoss1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3648.0,"y":1088.0,},

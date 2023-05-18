@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 if !global.gamePause {
 	event_inherited()
 	if keyboard_check_pressed(ord("R")) {
@@ -26,9 +24,7 @@ if !global.gamePause {
 		y += yVector
 	}
 
-	if place_meeting(x, y, oPortal) {
-		room_goto(choose(roomset))
-	}
+	
 	#endregion
 	#region take damage
 	if place_meeting(x, y, enemies) && invincible <= 0
@@ -51,20 +47,12 @@ if !global.gamePause {
 	add = (-cos(50*invincible) / 2) + 0.5
 	#endregion
 	#region - portal handling
-	if rooms = "Prologue" {
-		roomset = Beginning_Room
-	} else if rooms = "Chapter1" {
-	
-	} else if rooms = "Chapter2" {
-	
-	} else if rooms = "Chapter3" {
-	
+	if place_meeting(x, y, oPortal) {
+		room_goto(choose(2, 3, 4))
 	}
 	#endregion
-	
 	weaponAngle = weapon.image_angle
-	
-	#region the sprite *animation stuff
+	#region Sprite Animation
 	if xVector > 0 and yVector == 0 {
 		sprite_index = sPlayerWlkRight
 	} else if xVector < 0 and yVector == 0 {
