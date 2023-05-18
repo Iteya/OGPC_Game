@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Pause Menu Stuff",
-    "path": "folders/Sprites/NeedsSkins!1!/Pause Menu Stuff.yy",
+    "path": "folders/Sprites/Menu and HUD/Pause Menu Stuff.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

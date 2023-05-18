@@ -4,6 +4,7 @@
     {"name":"Chapter 1","order":3,"path":"folders/Rooms/Chapter 1.yy",},
     {"name":"Chatper 2","order":4,"path":"folders/Rooms/Chatper 2.yy",},
     {"name":"Chatper 3","order":5,"path":"folders/Rooms/Chatper 3.yy",},
+    {"name":"Pause Menu Stuff","order":4,"path":"folders/Sprites/Menu and HUD/Pause Menu Stuff.yy",},
     {"name":"Player","order":6,"path":"folders/Sprites/Player.yy",},
     {"name":"Tilesets","order":10,"path":"folders/Sprites/Terrain/Tilesets.yy",},
     {"name":"Staves","order":1,"path":"folders/Sprites/Weapons/Staves.yy",},
@@ -51,8 +52,11 @@
     {"name":"enemies","order":1,"path":"objects/enemies/enemies.yy",},
     {"name":"sStaff7","order":2,"path":"sprites/sStaff7/sStaff7.yy",},
     {"name":"sWinterTree2","order":1,"path":"sprites/sWinterTree2/sWinterTree2.yy",},
+<<<<<<< Updated upstream
     {"name":"sTileSet2","order":3,"path":"sprites/sTileSet2/sTileSet2.yy",},
     {"name":"Sprite79","order":3,"path":"sprites/Sprite79/Sprite79.yy",},
+=======
+>>>>>>> Stashed changes
     {"name":"sStaff11","order":12,"path":"sprites/sStaff11/sStaff11.yy",},
     {"name":"sStaff3","order":6,"path":"sprites/sStaff3/sStaff3.yy",},
     {"name":"sTileSet3","order":4,"path":"sprites/sTileSet3/sTileSet3.yy",},

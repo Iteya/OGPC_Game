@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sWindowedButton",
-  "bbox_bottom": 46,
-  "bbox_left": 10,
-  "bbox_right": 238,
-  "bbox_top": 17,
+  "bbox_bottom": 63,
+  "bbox_left": 0,
+  "bbox_right": 499,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,7 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3e1ca91-7f53-45c7-a2f9-741e8b0abe4e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"146a54a7-4f80-4086-8658-0b68e418c64e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d6a2dffe-974e-4cf4-8bd0-1c8a55a0d33f",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -27,7 +27,7 @@
   "origin": 0,
   "parent": {
     "name": "Pause Menu Stuff",
-    "path": "folders/Sprites/NeedsSkins!1!/Pause Menu Stuff.yy",
+    "path": "folders/Sprites/Menu and HUD/Pause Menu Stuff.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -56,7 +56,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d3e1ca91-7f53-45c7-a2f9-741e8b0abe4e","path":"sprites/sWindowedButton/sWindowedButton.yy",},},},"Disabled":false,"id":"32adac4f-eb7f-40c3-93a3-5fd04c4d2146","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"146a54a7-4f80-4086-8658-0b68e418c64e","path":"sprites/sWindowedButton/sWindowedButton.yy",},},},"Disabled":false,"id":"2232c070-f635-481a-9385-243626a3661d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d6a2dffe-974e-4cf4-8bd0-1c8a55a0d33f","path":"sprites/sWindowedButton/sWindowedButton.yy",},},},"Disabled":false,"id":"cc7d6f7d-d9d5-4622-8507-9218c7a8e80e","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
