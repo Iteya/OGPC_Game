@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sBackButton",
-  "bbox_bottom": 46,
-  "bbox_left": 12,
-  "bbox_right": 130,
-  "bbox_top": 17,
+  "bbox_bottom": 63,
+  "bbox_left": 0,
+  "bbox_right": 499,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,7 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3e1ca91-7f53-45c7-a2f9-741e8b0abe4e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"146a54a7-4f80-4086-8658-0b68e418c64e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9cd9b049-27b1-4783-be5d-ca87e7537805",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -56,7 +56,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d3e1ca91-7f53-45c7-a2f9-741e8b0abe4e","path":"sprites/sBackButton/sBackButton.yy",},},},"Disabled":false,"id":"8bbb4f51-4453-4ada-86e3-d4fe24b9a12d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"146a54a7-4f80-4086-8658-0b68e418c64e","path":"sprites/sBackButton/sBackButton.yy",},},},"Disabled":false,"id":"39fc80b3-da0f-45ae-9bd1-827d62aec884","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9cd9b049-27b1-4783-be5d-ca87e7537805","path":"sprites/sBackButton/sBackButton.yy",},},},"Disabled":false,"id":"5f8f91b3-bee5-4725-8d5f-ebda52d9ba2f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
