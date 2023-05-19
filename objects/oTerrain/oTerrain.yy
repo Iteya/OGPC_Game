@@ -6,8 +6,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
+<<<<<<< Updated upstream
     "name": "obstacles",
     "path": "folders/Objects/Terrain/obstacles.yy",
+=======
+    "name": "floors",
+    "path": "folders/Objects/purgatory/floors.yy",
+>>>>>>> Stashed changes
   },
   "parentObjectId": {
     "name": "collidables",

@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings": [
+<<<<<<< Updated upstream
     {"name":"floors","order":3,"path":"folders/Objects/Terrain/floors.yy",},
     {"name":"walls","order":4,"path":"folders/Objects/Terrain/walls.yy",},
     {"name":"Obstacles","order":1,"path":"folders/Sprites/Terrain/Obstacles.yy",},
@@ -29,5 +30,31 @@
     {"name":"oEnemyLeader","order":1,"path":"objects/oEnemyLeader/oEnemyLeader.yy",},
     {"name":"oWoodFence","order":2,"path":"objects/oWoodFence/oWoodFence.yy",},
     {"name":"sWeatheredRock","order":8,"path":"sprites/sWeatheredRock/sWeatheredRock.yy",},
+=======
+    {"name":"floors","order":2,"path":"folders/Objects/purgatory/floors.yy",},
+    {"name":"walls","order":3,"path":"folders/Objects/Terrain/walls.yy",},
+    {"name":"Pickups","order":4,"path":"folders/Objects/Terrain/Pickups.yy",},
+    {"name":"purgatory","order":1,"path":"folders/Objects/purgatory.yy",},
+    {"name":"Boss1","order":2,"path":"folders/Sprites/Enemies/Boss1.yy",},
+    {"name":"Boss1","order":1,"path":"folders/Objects/Enemy/Boss1.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"oFloor1","order":4,"path":"objects/oFloor1/oFloor1.yy",},
+    {"name":"mp","order":4,"path":"objects/mp/mp.yy",},
+    {"name":"PauseMenu","order":1,"path":"objects/PauseMenu/PauseMenu.yy",},
+    {"name":"Debug","order":1,"path":"objects/Debug/Debug.yy",},
+    {"name":"oTerrain","order":5,"path":"objects/oTerrain/oTerrain.yy",},
+    {"name":"oWinterTree1","order":2,"path":"objects/oWinterTree1/oWinterTree1.yy",},
+    {"name":"oInvisibleWall","order":3,"path":"objects/oInvisibleWall/oInvisibleWall.yy",},
+    {"name":"oPortal","order":1,"path":"objects/oPortal/oPortal.yy",},
+    {"name":"Sprite88","order":2,"path":"sprites/Sprite88/Sprite88.yy",},
+    {"name":"BosSpheres","order":1,"path":"objects/BosSpheres/BosSpheres.yy",},
+    {"name":"bossFightStart","order":2,"path":"objects/bossFightStart/bossFightStart.yy",},
+    {"name":"oPauseScreen","order":2,"path":"objects/oPauseScreen/oPauseScreen.yy",},
+    {"name":"floors","order":3,"path":"objects/floors/floors.yy",},
+    {"name":"oWinterFloor2","order":2,"path":"objects/oWinterFloor2/oWinterFloor2.yy",},
+    {"name":"oSnowFloor","order":1,"path":"objects/oSnowFloor/oSnowFloor.yy",},
+    {"name":"sBoss","order":1,"path":"sprites/sBoss/sBoss.yy",},
+>>>>>>> Stashed changes
   ],
 }

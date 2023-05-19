@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "floors",
-    "path": "folders/Objects/Terrain/floors.yy",
+    "path": "folders/Objects/purgatory/floors.yy",
   },
   "parentObjectId": {
     "name": "floors",

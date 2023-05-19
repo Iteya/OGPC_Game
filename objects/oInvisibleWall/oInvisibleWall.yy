@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "walls",
-    "path": "folders/Objects/Terrain/walls.yy",
+    "name": "purgatory",
+    "path": "folders/Objects/purgatory.yy",
   },
   "parentObjectId": {
     "name": "collidables",

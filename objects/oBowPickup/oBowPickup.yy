@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Pickups",
-    "path": "folders/Objects/Weapons/Pickups.yy",
+    "path": "folders/Objects/Terrain/Pickups.yy",
   },
   "parentObjectId": null,
   "persistent": false,

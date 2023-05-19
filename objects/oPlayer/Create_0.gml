@@ -13,6 +13,7 @@ Health = maxHealth
 invincible = 0
 rooms = "Prologue"
 mana = 50
+thourough = 0
 
 
 global.bossDirection = 180

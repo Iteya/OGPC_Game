@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-mp_grid_clear_all(global.grid)
+view_visible[0] = false
+view_visible[1] = true

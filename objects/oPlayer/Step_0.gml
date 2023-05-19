@@ -28,6 +28,7 @@ if !global.gamePause {
 
 	if place_meeting(x, y, oPortal) {
 		room_goto(choose(roomset))
+		thourough += 5
 	}
 	#endregion
 	#region take damage and mana
@@ -57,12 +58,11 @@ if !global.gamePause {
 	#region - portal handling
 	if rooms = "Prologue" {
 		roomset = Beginning_Room
+		if thourough == 5 {
+			roomset = Boss_Room
+		}
 	} else if rooms = "Chapter1" {
-	
-	} else if rooms = "Chapter2" {
-	
-	} else if rooms = "Chapter3" {
-	
+		roomset = Stone_Room
 	}
 	#endregion
 	
