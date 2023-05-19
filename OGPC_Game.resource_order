@@ -4,6 +4,7 @@
     {"name":"obstacles","order":5,"path":"folders/Objects/Terrain/obstacles.yy",},
     {"name":"walls","order":4,"path":"folders/Objects/Terrain/walls.yy",},
     {"name":"Obstacles","order":1,"path":"folders/Sprites/Terrain/Obstacles.yy",},
+    {"name":"Boss","order":2,"path":"folders/Objects/Enemy/Boss.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oArrow","order":5,"path":"objects/oArrow/oArrow.yy",},
