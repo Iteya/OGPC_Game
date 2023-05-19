@@ -3,6 +3,7 @@ maxHealth = 50
 Health = maxHealth
 maxframe = 50
 mySpeed = 1
+damage = 5
 iframe = maxframe
 mode = "idle"
 onFire = false

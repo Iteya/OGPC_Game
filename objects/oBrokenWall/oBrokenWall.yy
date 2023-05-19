@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "NeedsSkins",
-    "path": "folders/Objects/NeedsSkins.yy",
+    "name": "obstacles",
+    "path": "folders/Objects/Terrain/obstacles.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sBrokenWall",
-    "path": "sprites/sBrokenWall/sBrokenWall.yy",
+    "name": "sWeatheredRock",
+    "path": "sprites/sWeatheredRock/sWeatheredRock.yy",
   },
   "spriteMaskId": null,
   "visible": true,

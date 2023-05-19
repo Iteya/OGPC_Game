@@ -10,6 +10,7 @@ if mode != "idle" {
 else {
 	impatiance = -1
 }
+damage = 3 + ln(image_speed)
 
 
 }

@@ -37,7 +37,7 @@ if !global.gamePause {
 	
 	if place_meeting(x, y, enemies) && invincible <= 0
 		{
-			Health -= 5
+			Health -= other.damage
 			invincible ++
 		}
 	if invincible > 0

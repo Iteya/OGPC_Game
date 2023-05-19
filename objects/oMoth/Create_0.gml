@@ -5,3 +5,4 @@ runThreshold = 20
 maxHealth = 70
 Health = maxHealth
 imageSideLength = 32
+damage = 3
