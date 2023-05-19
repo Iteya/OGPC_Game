@@ -11,19 +11,19 @@ if !global.gamePause {
 	xDirection = xRight - xLeft
 	xVector = Speed * xDirection
 	
-	xdata = tilemap_get_at_pixel(map_id, x + xVector, y)
-	if xdata == 1 {
-		x += xVector
+	if (tilemap_get_at_pixel(map_id, x + xVector, y)) == 1 {
+		mp_linear_step(x + xVector, y, Speed, false)
 	}
+
+	
 
 	yDown = keyboard_check(ord("S"))
 	yUp = keyboard_check(ord("W"))
 	yDirection = yDown - yUp
 	yVector = Speed * yDirection
 	
-	ydata = tilemap_get_at_pixel(map_id, x, y + yVector)
-	if ydata == 1 {
-		y += yVector
+	if (tilemap_get_at_pixel(map_id, x, y + yVector)) == 1 {
+		mp_linear_step(x, y + yVector, Speed, false)
 	}
 
 	if place_meeting(x, y, oPortal) {

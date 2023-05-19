@@ -34,5 +34,5 @@
     "path": "sprites/sManaBar/sManaBar.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
