@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "purgatory",
-    "path": "folders/Objects/purgatory.yy",
+    "name": "Menu Items + HUD",
+    "path": "folders/Objects/Menu Items + HUD.yy",
   },
   "parentObjectId": null,
   "persistent": false,

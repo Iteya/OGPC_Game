@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu Items + HUD",
-    "path": "folders/Objects/Menu Items + HUD.yy",
+    "name": "NeedsSkins",
+    "path": "folders/Objects/NeedsSkins.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "purgatory",
-    "path": "folders/Objects/purgatory.yy",
+    "name": "walls",
+    "path": "folders/Objects/Terrain/walls.yy",
   },
   "parentObjectId": null,
   "persistent": false,
