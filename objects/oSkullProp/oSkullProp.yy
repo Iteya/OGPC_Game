@@ -24,7 +24,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "sSkullSleeping",
     "path": "sprites/sSkullSleeping/sSkullSleeping.yy",

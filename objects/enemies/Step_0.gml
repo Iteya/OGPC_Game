@@ -64,6 +64,9 @@ if global.gamePause == false {
 
 	if Health <= 0 {
 		instance_destroy(self)
+		if irandom_range(1, 20) == 20 {
+			instance_create_layer(x, y, layer, choose(oSword1_create, oSword2_create, oSword3_create, oSword4_create, oSword5_create, oSword6_create, oSword7_create, oSword8_create, oBow_create, oLightningStaff_create, oNecromancyStaff_create, oStarRod_create))
+		}
 	}
 	#endregion
 	add = (-cos(50*iframe) / 2) + 0.5 //Flashing anim

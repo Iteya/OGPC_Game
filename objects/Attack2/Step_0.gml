@@ -7,4 +7,8 @@ if timer <= 0 {
 	if timer2 >= 15 {
 		instance_destroy(self)
 	}
+	if place_meeting(x, y, oPlayer) && oPlayer.invincible <= 0 {
+		oPlayer.Health -= damage
+		oPlayer.invincible ++
+	}
 }

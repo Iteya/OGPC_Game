@@ -4,3 +4,4 @@ x = oPlayer.x
 y = oPlayer.y
 timer = 10
 timer2 = 0
+damage = 10

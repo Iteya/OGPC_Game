@@ -10,10 +10,12 @@
     {"name":"inst_3263C5D","path":"rooms/Beginning_Room/Beginning_Room.yy",},
     {"name":"inst_4FD012F1","path":"rooms/Beginning_Room/Beginning_Room.yy",},
     {"name":"inst_1B5BEB66","path":"rooms/Beginning_Room/Beginning_Room.yy",},
-    {"name":"inst_3DF3739E","path":"rooms/Beginning_Room/Beginning_Room.yy",},
     {"name":"inst_214BEE21","path":"rooms/Beginning_Room/Beginning_Room.yy",},
-    {"name":"inst_4DF2B849","path":"rooms/Beginning_Room/Beginning_Room.yy",},
     {"name":"inst_5D856B67","path":"rooms/Beginning_Room/Beginning_Room.yy",},
+    {"name":"inst_4DF2B849","path":"rooms/Beginning_Room/Beginning_Room.yy",},
+    {"name":"inst_3DF3739E","path":"rooms/Beginning_Room/Beginning_Room.yy",},
+    {"name":"inst_4CEF104A","path":"rooms/Beginning_Room/Beginning_Room.yy",},
+    {"name":"inst_56B99390","path":"rooms/Beginning_Room/Beginning_Room.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -27,6 +29,8 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Midground","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3DF3739E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":1312.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CEF104A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2592.0,"y":1312.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_56B99390","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBow_create","path":"objects/oBow_create/oBow_create.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":1280.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Walls","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":40,"SerialiseWidth":80,"TileCompressedData":[
 -56,-2147483648,2,45,9,-4,1,3,5,42,0,-72,-2147483648,2,45,9,-3,1,1,27,-75,-2147483648,1,18,-3,1,1,27,-75,-2147483648,1,18,-3,1,3,3,40,0,-73,-2147483648,2,45,9,-3,1,2,27,0,-74,-2147483648,6,45,9,1,1,3,40,-75,-2147483648,5,45,9,1,1,27,-75,-2147483648,5,0,45,9,1,27,-77,-2147483648,3,18,1,27,-77,

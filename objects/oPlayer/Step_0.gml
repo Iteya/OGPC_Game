@@ -2,9 +2,6 @@
 // You can write your code in this editor
 if !global.gamePause {
 	event_inherited()
-	if keyboard_check_pressed(ord("R")) {
-		game_restart()
-	}
 	#region movement
 	xRight = keyboard_check(ord("D"))
 	xLeft = keyboard_check(ord("A"))
@@ -27,8 +24,8 @@ if !global.gamePause {
 	}
 
 	if place_meeting(x, y, oPortal) {
-		room_goto(choose(roomset))
-		thourough += 5
+		room_goto(roomset)
+		thourough += 1
 	}
 	#endregion
 	#region take damage and mana
@@ -36,11 +33,7 @@ if !global.gamePause {
 		mana += 0.05
 	}
 	
-	if place_meeting(x, y, enemies) && invincible <= 0
-		{
-			Health -= other.damage
-			invincible ++
-		}
+	
 	if invincible > 0
 		{
 			invincible ++
@@ -56,13 +49,9 @@ if !global.gamePause {
 	add = (-cos(50*invincible) / 2) + 0.5
 	#endregion
 	#region - portal handling
-	if rooms = "Prologue" {
-		roomset = Beginning_Room
-		if thourough == 5 {
-			roomset = Boss_Room
-		}
-	} else if rooms = "Chapter1" {
-		roomset = Stone_Room
+	roomset = choose(Beginning_Room, Beginning_Chapter1, Stone_Room)
+	if thourough == 10 {
+		roomset = Boss_Room
 	}
 	#endregion
 	

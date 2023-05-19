@@ -8,12 +8,9 @@ weaponAngle = 0
 Healthbar = sprite_width
 Speed = 4
 arrows = 15
-maxHealth = 50
+maxHealth = 100
 Health = maxHealth
 invincible = 0
 rooms = "Prologue"
 mana = 50
 thourough = 0
-
-
-global.bossDirection = 180
