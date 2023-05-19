@@ -5,7 +5,11 @@ if !global.gamePause {
 		attackTimer1 -= irandom_range(0.5, 2)
 		if attackTimer1 <= 0 {
 			instance_create_layer(irandom_range(2495, 4620), irandom_range(370, 2180), "Midground", Attack1)
-			attackTimer1 = 300
+			attackTimer1 = 150
+		}
+		attackTimer2 -= irandom_range(1, 1.5)
+		if attackTimer2 <= 0 {
+			
 		}
 	}	
 }

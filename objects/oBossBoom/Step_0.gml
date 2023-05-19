@@ -3,4 +3,6 @@
 if place_meeting(x, y, oPlayer) {
 	oPlayer.Health -= 5
 }
-if image_index = 
+if image_index > image_number - 1 {
+	instance_destroy(self)
+}
