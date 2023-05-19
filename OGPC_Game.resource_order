@@ -28,6 +28,7 @@
     {"name":"sWinterTree1","order":1,"path":"sprites/sWinterTree1/sWinterTree1.yy",},
     {"name":"sBossOrbs","order":2,"path":"sprites/sBossOrbs/sBossOrbs.yy",},
     {"name":"oRock","order":4,"path":"objects/oRock/oRock.yy",},
+    {"name":"Attack2","order":5,"path":"objects/Attack2/Attack2.yy",},
     {"name":"sAttack2","order":3,"path":"sprites/sAttack2/sAttack2.yy",},
     {"name":"sWoodFence","order":4,"path":"sprites/sWoodFence/sWoodFence.yy",},
     {"name":"oBossBoom","order":4,"path":"objects/oBossBoom/oBossBoom.yy",},
@@ -40,5 +41,6 @@
     {"name":"oWoodFence","order":2,"path":"objects/oWoodFence/oWoodFence.yy",},
     {"name":"Attack1","order":3,"path":"objects/Attack1/Attack1.yy",},
     {"name":"sWeatheredRock","order":8,"path":"sprites/sWeatheredRock/sWeatheredRock.yy",},
+    {"name":"Stone_Room","order":1,"path":"rooms/Stone_Room/Stone_Room.yy",},
   ],
 }

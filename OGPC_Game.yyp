@@ -180,6 +180,7 @@
     {"id":{"name":"sPlayerHurt","path":"sprites/sPlayerHurt/sPlayerHurt.yy",},},
     {"id":{"name":"oRock","path":"objects/oRock/oRock.yy",},},
     {"id":{"name":"oPauseScreen","path":"objects/oPauseScreen/oPauseScreen.yy",},},
+    {"id":{"name":"Attack2","path":"objects/Attack2/Attack2.yy",},},
     {"id":{"name":"sPlayerWlkUp","path":"sprites/sPlayerWlkUp/sPlayerWlkUp.yy",},},
     {"id":{"name":"enemies","path":"objects/enemies/enemies.yy",},},
     {"id":{"name":"oLightningStaff","path":"objects/oLightningStaff/oLightningStaff.yy",},},
