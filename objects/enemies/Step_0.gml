@@ -6,7 +6,7 @@ if global.gamePause == false {
 			self.mode = "attack"
 		}
 		impatiance += irandom_range(1, 5)
-		if impatiance >= 100 {
+		if impatiance >= maximpatiance {
 			stepx = random_range(-30, 30)
 			image_angle += stepx
 			impatiance = 0

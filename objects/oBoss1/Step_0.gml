@@ -3,10 +3,11 @@ timer --
 if timer < 0 {
 	timer = 7
 	if !moved {
+		moved = true
 		playerDirection = point_direction(x, y, oPlayer.x, oPlayer.y)
 		if (playerDirection < 45 or playerDirection >= 315) and image_angle != 180 { //East
 			global.bossDirection = 0
-			instance_create_layer(x + 64, y, "Midground", oBoss1)
+			instance_create_layer(x + 64 * image_xscale, y, "Midground", oBoss1)
 			if image_angle == 0 {
 				image_index = 1
 				image_angle = 90
@@ -65,7 +66,9 @@ if timer < 0 {
 				image_index = 1
 			}
 		}
-		moved = true
+		else {
+			moved = false
+		}
 	}
 	length ++
 	if length == 10 {

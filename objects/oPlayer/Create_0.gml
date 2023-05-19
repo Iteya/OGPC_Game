@@ -15,4 +15,4 @@ rooms = "Prologue"
 mana = 50
 
 
-
+global.bossDirection = 180

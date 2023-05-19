@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sSkull",
-    "path": "sprites/sSkull/sSkull.yy",
+    "name": "sSkullSleeping",
+    "path": "sprites/sSkullSleeping/sSkullSleeping.yy",
   },
   "spriteMaskId": null,
   "visible": true,
