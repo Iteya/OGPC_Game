@@ -1,0 +1,11 @@
+maxHealth = 300
+Health = maxHealth
+maxframe = 100
+iframe = maxframe
+onFire = false
+timer = 7
+moved = false
+image_angle = global.bossDirection
+image_xscale = 2
+image_yscale = image_xscale
+length = 0

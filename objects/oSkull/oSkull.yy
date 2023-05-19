@@ -1,10 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oBoss1",
+  "name": "oSkull",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,7 +13,10 @@
     "name": "Enemy",
     "path": "folders/Objects/Enemy.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "enemies",
+    "path": "objects/enemies/enemies.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sBoss1",
-    "path": "sprites/sBoss1/sBoss1.yy",
+    "name": "sSkull",
+    "path": "sprites/sSkull/sSkull.yy",
   },
   "spriteMaskId": null,
   "visible": true,

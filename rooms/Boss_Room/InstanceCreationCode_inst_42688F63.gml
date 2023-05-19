@@ -1,0 +1,1 @@
+global.bossDirection = 180
