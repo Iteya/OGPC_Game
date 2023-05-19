@@ -89,6 +89,7 @@
     {"id":{"name":"oTerrain","path":"objects/oTerrain/oTerrain.yy",},},
     {"id":{"name":"sBow1","path":"sprites/sBow1/sBow1.yy",},},
     {"id":{"name":"oWinterTree1","path":"objects/oWinterTree1/oWinterTree1.yy",},},
+    {"id":{"name":"sWater","path":"sprites/sWater/sWater.yy",},},
     {"id":{"name":"sBackGroundWinter","path":"sprites/sBackGroundWinter/sBackGroundWinter.yy",},},
     {"id":{"name":"oBowPickup","path":"objects/oBowPickup/oBowPickup.yy",},},
     {"id":{"name":"sTileSet1","path":"sprites/sTileSet1/sTileSet1.yy",},},
