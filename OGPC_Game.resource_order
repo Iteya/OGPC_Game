@@ -9,6 +9,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oArrow","order":5,"path":"objects/oArrow/oArrow.yy",},
+    {"name":"Boss_Room6","order":1,"path":"rooms/Boss_Room6/Boss_Room6.yy",},
     {"name":"sWall32","order":3,"path":"sprites/sWall32/sWall32.yy",},
     {"name":"oTerrain","order":1,"path":"objects/oTerrain/oTerrain.yy",},
     {"name":"oWinterTree1","order":2,"path":"objects/oWinterTree1/oWinterTree1.yy",},

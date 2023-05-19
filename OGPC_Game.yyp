@@ -76,6 +76,7 @@
     {"id":{"name":"sSword13","path":"sprites/sSword13/sSword13.yy",},},
     {"id":{"name":"WallSet1","path":"tilesets/WallSet1/WallSet1.yy",},},
     {"id":{"name":"sPauseMenu","path":"sprites/sPauseMenu/sPauseMenu.yy",},},
+    {"id":{"name":"Boss_Room6","path":"rooms/Boss_Room6/Boss_Room6.yy",},},
     {"id":{"name":"PauseMenu","path":"objects/PauseMenu/PauseMenu.yy",},},
     {"id":{"name":"sWall32","path":"sprites/sWall32/sWall32.yy",},},
     {"id":{"name":"oSword4","path":"objects/oSword4/oSword4.yy",},},
@@ -243,6 +244,7 @@
     {"roomId":{"name":"Stone_Room","path":"rooms/Stone_Room/Stone_Room.yy",},},
     {"roomId":{"name":"Boss_Room","path":"rooms/Boss_Room/Boss_Room.yy",},},
     {"roomId":{"name":"Beginning_Chapter1","path":"rooms/Beginning_Chapter1/Beginning_Chapter1.yy",},},
+    {"roomId":{"name":"Boss_Room6","path":"rooms/Boss_Room6/Boss_Room6.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
