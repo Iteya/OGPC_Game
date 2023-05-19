@@ -1,8 +1,4 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [
-    {"name":"oSkull","order":1,"path":"objects/oSkull/oSkull.yy",},
-    {"name":"sSkullSleeping","order":2,"path":"sprites/sSkullSleeping/sSkullSleeping.yy",},
-    {"name":"sSkull","order":1,"path":"sprites/sSkull/sSkull.yy",},
-  ],
+  "ResourceOrderSettings": [],
 }

@@ -1,3 +1,3 @@
 /// @description Left *click* start game
 
-room_goto(rTest)
+room_goto(Beginning_Room)

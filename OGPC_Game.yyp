@@ -211,11 +211,9 @@
     {"id":{"name":"sBrokenWall","path":"sprites/sBrokenWall/sBrokenWall.yy",},},
     {"id":{"name":"sSkull","path":"sprites/sSkull/sSkull.yy",},},
     {"id":{"name":"Stone_Room","path":"rooms/Stone_Room/Stone_Room.yy",},},
-    {"id":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
-    {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
     {"roomId":{"name":"Beginning_Room","path":"rooms/Beginning_Room/Beginning_Room.yy",},},
     {"roomId":{"name":"Stone_Room","path":"rooms/Stone_Room/Stone_Room.yy",},},
     {"roomId":{"name":"Boss_Room","path":"rooms/Boss_Room/Boss_Room.yy",},},

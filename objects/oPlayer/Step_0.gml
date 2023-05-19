@@ -30,7 +30,11 @@ if !global.gamePause {
 		room_goto(choose(roomset))
 	}
 	#endregion
-	#region take damage
+	#region take damage and mana
+	if mana < 50 {
+		mana += 0.05
+	}
+	
 	if place_meeting(x, y, enemies) && invincible <= 0
 		{
 			Health -= 5
