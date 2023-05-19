@@ -1,4 +1,10 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+<<<<<<< Updated upstream
+    {"name":"Boss_Room","order":1,"path":"rooms/Boss_Room/Boss_Room.yy",},
+=======
+    {"name":"sBoss183","order":1,"path":"sprites/sBoss183/sBoss183.yy",},
+>>>>>>> Stashed changes
+  ],
 }

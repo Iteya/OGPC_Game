@@ -1,18 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPlayerRoomStart",
+  "name": "oInvisibleWall",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "walls",
+    "path": "folders/Objects/Terrain/walls.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "collidables",
+    "path": "objects/collidables/collidables.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -27,8 +29,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
-  "spriteId": null,
+  "solid": true,
+  "spriteId": {
+    "name": "sInvisibleWall",
+    "path": "sprites/sInvisibleWall/sInvisibleWall.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
