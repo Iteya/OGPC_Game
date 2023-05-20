@@ -218,6 +218,7 @@
     {"id":{"name":"becomeInvisible","path":"scripts/becomeInvisible/becomeInvisible.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"sAttack2","path":"sprites/sAttack2/sAttack2.yy",},},
+    {"id":{"name":"oTutorial","path":"objects/oTutorial/oTutorial.yy",},},
     {"id":{"name":"oBow","path":"objects/oBow/oBow.yy",},},
     {"id":{"name":"sWoodFence","path":"sprites/sWoodFence/sWoodFence.yy",},},
     {"id":{"name":"sBoss","path":"sprites/sBoss/sBoss.yy",},},

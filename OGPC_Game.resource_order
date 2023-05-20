@@ -68,6 +68,7 @@
     {"name":"oLightningStaff","order":1,"path":"objects/oLightningStaff/oLightningStaff.yy",},
     {"name":"oNecromancyStaff_create","order":7,"path":"objects/oNecromancyStaff_create/oNecromancyStaff_create.yy",},
     {"name":"sAttack2","order":3,"path":"sprites/sAttack2/sAttack2.yy",},
+    {"name":"oTutorial","order":1,"path":"objects/oTutorial/oTutorial.yy",},
     {"name":"oBow","order":2,"path":"objects/oBow/oBow.yy",},
     {"name":"sWoodFence","order":4,"path":"sprites/sWoodFence/sWoodFence.yy",},
     {"name":"sBoss","order":5,"path":"sprites/sBoss/sBoss.yy",},
