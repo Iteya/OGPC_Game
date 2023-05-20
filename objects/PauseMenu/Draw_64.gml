@@ -50,7 +50,7 @@ if global.gamePause {
 				menubuffer = 2
 			}
 			if keyboard_check_pressed(vk_space) && menubuffer == 0 {
-				game_end()
+				game_restart()
 				menubuffer = 2
 			}
 		}
