@@ -11,6 +11,9 @@ if global.gamePause == false {
 			image_angle += stepx
 			impatiance = 0
 		}
+		if place_meeting(x, y, projectiles) and self.mode != "run" {
+			self.mode = "attack"
+		}
 		
 	}
 	else {

@@ -43,6 +43,9 @@ if !global.gamePause {
 			room_goto(choose(Room1, Room2, Room3, Room4, Room5, Room6, Room7, Room8, Room9))
 		}
 		thourough += 1
+		if Health <= 50 {
+			Health += 10
+		}
 	}
 	#endregion
 	#region take damage and mana
