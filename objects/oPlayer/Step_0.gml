@@ -37,7 +37,7 @@ if !global.gamePause {
 	}
 
 	if place_meeting(x, y, oPortal) {
-		if thourough = 10 {
+		if thourough = 0 {
 			room_goto(Boss_Room)
 		} else {
 			room_goto(choose(Room1, Room2, Room3, Room4, Room5, Room6, Room7, Room8, Room9))
