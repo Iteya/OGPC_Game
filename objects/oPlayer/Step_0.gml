@@ -26,12 +26,12 @@ if !global.gamePause {
 	if keyboard_check_pressed(vk_space) {
 		if cooldown <= 0 {
 			Speed = 10
-			cooldown = 5
+			cooldown = 8
 			invincible++
 		}
 	}
 	cooldown -= 0.25
-	if Speed = 10 and cooldown == 1 {
+	if Speed = 10 and cooldown == 4 {
 		invincible = 0
 		Speed = 5
 	}
