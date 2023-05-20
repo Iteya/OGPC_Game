@@ -50,7 +50,7 @@ if !global.gamePause {
 	#endregion
 	#region take damage and mana
 	if mana < 100 {
-		mana += 0.1
+		mana += 0.05
 	}
 	
 	
