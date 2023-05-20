@@ -7,15 +7,15 @@ if global.gamePause {
 			draw_sprite(sUnpauseButton, 2, 555, 200)
 			draw_sprite(sOptionsButton, 1, 555, 300)
 			draw_sprite(sQuitButton, 1, 555, 400)
-			if keyboard_check_pressed(vk_up) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("W")) && menubuffer == 0 {
 				button = "quit"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_down) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("S")) && menubuffer == 0 {
 				button = "options"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_enter) && menubuffer == 0 {
+			if keyboard_check_pressed(vk_space) && menubuffer == 0 {
 				global.gamePause = false
 				menubuffer = 2
 			}
@@ -24,15 +24,15 @@ if global.gamePause {
 			draw_sprite(sUnpauseButton, 1, 555, 200)
 			draw_sprite(sOptionsButton, 2, 555, 300)
 			draw_sprite(sQuitButton, 1, 555, 400)
-			if keyboard_check_pressed(vk_up) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("W")) && menubuffer == 0 {
 				button = "unpause"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_down) && menubuffer == 0{
+			if keyboard_check_pressed(ord("S")) && menubuffer == 0{
 				button = "quit"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_enter) && menubuffer == 0 {
+			if keyboard_check_pressed(vk_space) && menubuffer == 0 {
 				options = true
 				menubuffer = 2
 			}
@@ -41,15 +41,15 @@ if global.gamePause {
 			draw_sprite(sUnpauseButton, 1, 555, 200)
 			draw_sprite(sOptionsButton, 1, 555, 300)
 			draw_sprite(sQuitButton, 2, 555, 400)
-			if keyboard_check_pressed(vk_up) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("W")) && menubuffer == 0 {
 				button = "options"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_down) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("S")) && menubuffer == 0 {
 				button = "unpause"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_enter) && menubuffer == 0 {
+			if keyboard_check_pressed(vk_space) && menubuffer == 0 {
 				game_end()
 				menubuffer = 2
 			}
@@ -60,15 +60,15 @@ if global.gamePause {
 			draw_sprite(sBackButton, 2, 555, 200)
 			draw_sprite(sFullscreenButton, 1, 555, 300)
 			draw_sprite(sWindowedButton, 1, 555, 400)
-			if keyboard_check_pressed(vk_up) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("W")) && menubuffer == 0 {
 				selection = "windowed"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_down) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("S")) && menubuffer == 0 {
 				selection = "fullscreen"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_enter) && menubuffer == 0 {
+			if keyboard_check_pressed(vk_space) && menubuffer == 0 {
 				options = false
 			}
 		}
@@ -76,15 +76,15 @@ if global.gamePause {
 			draw_sprite(sBackButton, 1, 555, 200)
 			draw_sprite(sFullscreenButton, 2, 555, 300)
 			draw_sprite(sWindowedButton, 1, 555, 400)
-			if keyboard_check_pressed(vk_up) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("W")) && menubuffer == 0 {
 				selection = "back"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_down) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("S")) && menubuffer == 0 {
 				selection = "windowed"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_enter) && menubuffer == 0 {
+			if keyboard_check_pressed(vk_space) && menubuffer == 0 {
 				window_set_fullscreen(true)
 			}
 		}
@@ -92,15 +92,15 @@ if global.gamePause {
 			draw_sprite(sBackButton, 1, 555, 200)
 			draw_sprite(sFullscreenButton, 1, 555, 300)
 			draw_sprite(sWindowedButton, 2, 555, 400)
-			if keyboard_check_pressed(vk_up) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("W")) && menubuffer == 0 {
 				selection = "fullscreen"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_down) && menubuffer == 0 {
+			if keyboard_check_pressed(ord("S")) && menubuffer == 0 {
 				selection = "back"
 				menubuffer = 2
 			}
-			if keyboard_check_pressed(vk_enter) && menubuffer == 0 {
+			if keyboard_check_pressed(vk_space) && menubuffer == 0 {
 				window_set_fullscreen(false)
 			}
 		}
