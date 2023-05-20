@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Menu Items + HUD",
+    "path": "folders/Objects/Menu Items + HUD.yy",
   },
   "parentObjectId": null,
   "persistent": false,

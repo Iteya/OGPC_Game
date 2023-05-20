@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-other.invincibility = 10
-other.BossHealth -= damage
+if other.invincibility == -1 {
+	other.invincibility = 30
+	other.BossHealth -= damage
+}
