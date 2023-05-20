@@ -188,7 +188,6 @@
     {"id":{"name":"sPlayerWlkDown","path":"sprites/sPlayerWlkDown/sPlayerWlkDown.yy",},},
     {"id":{"name":"oMoth","path":"objects/oMoth/oMoth.yy",},},
     {"id":{"name":"oHaunting","path":"objects/oHaunting/oHaunting.yy",},},
-    {"id":{"name":"Sprite103","path":"sprites/Sprite103/Sprite103.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"Boss_Room","path":"rooms/Boss_Room/Boss_Room.yy",},},
     {"id":{"name":"sWallSet1","path":"sprites/sWallSet1/sWallSet1.yy",},},
