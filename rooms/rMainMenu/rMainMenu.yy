@@ -8,11 +8,15 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_2C065DB","path":"rooms/rMainMenu/rMainMenu.yy",},
+    {"name":"inst_504E8B94","path":"rooms/rMainMenu/rMainMenu.yy",},
+    {"name":"inst_1586AEB2","path":"rooms/rMainMenu/rMainMenu.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C065DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oStartButton","path":"objects/oStartButton/oStartButton.yy",},"properties":[],"rotation":0.0,"scaleX":10.0,"scaleY":10.0,"x":384.0,"y":480.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C065DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oStartButton","path":"objects/oStartButton/oStartButton.yy",},"properties":[],"rotation":0.0,"scaleX":10.0,"scaleY":10.0,"x":384.0,"y":479.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_504E8B94","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},"properties":[],"rotation":0.0,"scaleX":1.05,"scaleY":1.1333333,"x":368.0,"y":55.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1586AEB2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Object85","path":"objects/Object85/Object85.yy",},"properties":[],"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":704.0,"y":352.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"sWall32","path":"sprites/sWall32/sWall32.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
