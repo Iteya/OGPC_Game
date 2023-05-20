@@ -64,7 +64,7 @@
     {"name":"oSword5_create","order":5,"path":"objects/oSword5_create/oSword5_create.yy",},
     {"name":"Boss_Room","order":1,"path":"rooms/Boss_Room/Boss_Room.yy",},
     {"name":"oBrokenWall","order":5,"path":"objects/oBrokenWall/oBrokenWall.yy",},
-    {"name":"Object82","order":3,"path":"objects/Object82/Object82.yy",},
+    {"name":"Object82","order":7,"path":"objects/Object82/Object82.yy",},
     {"name":"sWinterTree1","order":1,"path":"sprites/sWinterTree1/sWinterTree1.yy",},
     {"name":"sBossOrbs","order":2,"path":"sprites/sBossOrbs/sBossOrbs.yy",},
     {"name":"oSword4_create","order":4,"path":"objects/oSword4_create/oSword4_create.yy",},

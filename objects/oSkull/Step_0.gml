@@ -7,6 +7,7 @@ if sprite_index == sSkullSleeping and mode == "attack" {
 if mode != "idle" {
 	mySpeed = clamp(image_speed, 1, oPlayer.Speed)
 	image_speed += .0015
+	image_angle -= 90
 }
 else {
 	impatiance = -1

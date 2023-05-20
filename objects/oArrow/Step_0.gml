@@ -12,6 +12,7 @@ if !global.gamePause {
 	yB = y //second set of coordinates
 	if xA == xB and yA == yB {
 		image_speed = 0 //if not moving anymore, stop animation
+		moving = false
 		if place_meeting(x, y, oPlayer) {
 			instance_destroy(self)
 			oPlayer.arrows ++

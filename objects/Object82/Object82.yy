@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Enemy.yy",
+    "name": "Menu Items + HUD",
+    "path": "folders/Objects/Menu Items + HUD.yy",
   },
   "parentObjectId": null,
   "persistent": false,

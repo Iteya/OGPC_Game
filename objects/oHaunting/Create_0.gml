@@ -1,7 +1,7 @@
 event_inherited()
 mySpeed = 4
 sightRange = 1200
-maxHealth = 150
+maxHealth = 125
 Health = maxHealth
 runThreshold = 5
 imageSideLength = 128
