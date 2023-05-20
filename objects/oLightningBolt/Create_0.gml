@@ -9,4 +9,4 @@ if round(image_xscale) == 7
 len = 32 * image_xscale
 image_angle = oLightningStaff.boltAngle
 oLightningStaff.boltAngle += random_range(-20 * fork, 20 * fork)
-
+damage = 6

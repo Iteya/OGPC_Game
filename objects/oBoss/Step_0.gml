@@ -35,17 +35,13 @@ if !global.gamePause {
 				attackTimer3 = 200
 			}
 		}
-		if place_meeting(x, y, oPlayer.weapon) && invincibility <= 0 {
-			BossHealth -= oPlayer.weapon.damage
+		if invincibility > 0 {
 			oBossOrbs.image_speed = 0
 			image_speed = 0
-			invincibility = 10
-		}
-		if invincibility > 0 {
 			invincibility -= 0.5
 		}
 		if invincibility <= 0 {
-			oBossOrbs.image_speed = 1
+			oBossOrbs.image_speed = 1 + (Phase / 10)
 			image_speed = 1
 			invincibility = -1
 		}
@@ -55,11 +51,32 @@ if !global.gamePause {
 			Phase = 3
 		}
 		if BossHealth <= 0 {
-			instance_create_layer(x, y, layer, oBossBoom)
-			instance_destroy(self)
-			instance_destroy(oBossOrbs)
-			instance_create_layer(x, y, layer, Boss_Ruin)
-			BossPortal.visible = true
+			timer += 1
+			if timer > 0 && timer < 3 {
+				instance_create_layer(x, y, layer, oBossBoom)
+				instance_create_layer(x + 1, y, layer, oBossBoom)
+				instance_create_layer(x - 1, y, layer, oBossBoom)
+				instance_create_layer(x, y + 1, layer, oBossBoom)
+				instance_create_layer(x, y - 1, layer, oBossBoom)
+			}
+			if timer >= 3 && timer < 6 {
+				instance_create_layer(x, y, layer, oBossBoom)
+				instance_create_layer(x + 4, y, layer, oBossBoom)
+				instance_create_layer(x - 4, y, layer, oBossBoom)
+				instance_create_layer(x, y + 4, layer, oBossBoom)
+				instance_create_layer(x, y - 4, layer, oBossBoom)
+			}
+			if timer >= 6 && timer < 9 {
+				instance_create_layer(x, y, layer, oBossBoom)
+				instance_create_layer(x + 6, y, layer, oBossBoom)
+				instance_create_layer(x - 6, y, layer, oBossBoom)
+				instance_create_layer(x, y + 6, layer, oBossBoom)
+				instance_create_layer(x, y - 6, layer, oBossBoom)
+				instance_destroy(self)
+				instance_destroy(oBossOrbs)
+				instance_create_layer(x, y, layer, Boss_Ruin)
+				BossPortal.visible = true
+			}
 		}
 	}	
 }

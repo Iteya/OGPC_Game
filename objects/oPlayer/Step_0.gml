@@ -22,15 +22,32 @@ if !global.gamePause {
 	if (tilemap_get_at_pixel(map_id, x, y + yVector)) == 1 {
 		mp_linear_step(x, y + yVector, Speed, false)
 	}
+	
+	if keyboard_check_pressed(vk_space) {
+		if cooldown <= 0 {
+			Speed = 10
+			cooldown = 5
+			invincible++
+		}
+	}
+	cooldown -= 0.25
+	if Speed = 10 and cooldown == 1 {
+		invincible = 0
+		Speed = 5
+	}
 
 	if place_meeting(x, y, oPortal) {
-		room_goto(roomset)
+		if thourough = 10 {
+			room_goto(Boss_Room)
+		} else {
+			room_goto(choose(Room1, Room2, Room3, Room4, Room5, Room6, Room7, Room8, Room9))
+		}
 		thourough += 1
 	}
 	#endregion
 	#region take damage and mana
-	if mana < 50 {
-		mana += 0.05
+	if mana < 100 {
+		mana += 0.1
 	}
 	
 	
@@ -49,10 +66,6 @@ if !global.gamePause {
 	add = (-cos(50*invincible) / 2) + 0.5
 	#endregion
 	#region - portal handling
-	roomset = choose(Beginning_Room, Beginning_Chapter1, Stone_Room)
-	if thourough == 10 {
-		roomset = Boss_Room
-	}
 	#endregion
 	
 	weaponAngle = weapon.image_angle

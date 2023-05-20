@@ -10,7 +10,6 @@ onFire = false
 imageSideLength = 64
 healthVisible = true
 stepx = 0
-stepy = 0
 impatiance = 0
 maximpatiance = 100
 

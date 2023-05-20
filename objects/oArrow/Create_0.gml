@@ -2,3 +2,4 @@
 event_inherited()
 myX = x
 myY = y //starter coords
+damage = 7

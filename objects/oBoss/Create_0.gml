@@ -7,3 +7,4 @@ attackTimer2 = 250
 attackTimer3 = 300
 Phase = 1
 invincibility = -1
+timer = 0
