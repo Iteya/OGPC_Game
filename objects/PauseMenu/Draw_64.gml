@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if global.gamePause {
+if global.gamePause && !global.dead {
 	draw_sprite(sPauseMenu, 1, 0, 0)
 	if !options {
 		if button = "unpause" {
@@ -50,7 +50,7 @@ if global.gamePause {
 				menubuffer = 2
 			}
 			if keyboard_check_pressed(vk_space) && menubuffer == 0 {
-				game_restart()
+				game_end()
 				menubuffer = 2
 			}
 		}
@@ -104,5 +104,11 @@ if global.gamePause {
 				window_set_fullscreen(false)
 			}
 		}
+	}
+}
+else if global.dead {
+	draw_sprite(sDeathMenu, 1, 0, 0)
+	if keyboard_check(vk_anykey) && menubuffer <= 0{
+		game_restart()
 	}
 }

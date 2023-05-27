@@ -30,6 +30,7 @@
     {"name":"Room1","order":2,"path":"rooms/Room1/Room1.yy",},
     {"name":"Room9","order":11,"path":"rooms/Room9/Room9.yy",},
     {"name":"sAttack2_2","order":4,"path":"sprites/sAttack2_2/sAttack2_2.yy",},
+    {"name":"sDeathMenu","order":1,"path":"sprites/sDeathMenu/sDeathMenu.yy",},
     {"name":"sWinterBush","order":2,"path":"sprites/sWinterBush/sWinterBush.yy",},
     {"name":"oPortal","order":1,"path":"objects/oPortal/oPortal.yy",},
     {"name":"Room","order":4,"path":"rooms/Room/Room.yy",},

@@ -64,7 +64,9 @@ if !global.gamePause {
 		}
 	if Health <= 0
 		{
-			game_restart()
+			global.gamePause = true
+			global.dead = true
+			PauseMenu.menubuffer = 10
 		}
 	add = (-cos(50*invincible) / 2) + 0.5
 	#endregion
